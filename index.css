@@ -41,8 +41,11 @@ body, html {
 }
 
 .description {
-    margin-top: 10px;
-    text-align: justify;
+    position: sticky;
+    top: 20px; /* Adjust based on your header or desired spacing */
+    max-height: 60vh; /* Adjust based on your preference */
+    overflow-y: auto; /* Allow inner scrolling if the content is too long */
+    width: 200px; /* Adjust based on your preference */
 }
 
 h1, h2, h3, h4, h5, h6 {
