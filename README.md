@@ -15,7 +15,7 @@ created for work, or for fun.
 
 ![Erasmus students](Visualizations/animal_use.png)
 
-![Erasmus students](Visualizations/libreria.png)
+![Erasmus students](Visualizations/sestri_export.png)
 
 ![Erasmus students](Visualizations/website_plot1.png)
 
