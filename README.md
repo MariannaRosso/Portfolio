@@ -11,4 +11,4 @@ Selected Visualizations, created for work, or for fun.
 
 ![fuels](chapter2.png)
 
-![fuels](Picture1.jpg)
+![fuels](Picture1.png)
