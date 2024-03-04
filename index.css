@@ -4,7 +4,7 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-    background-color: #ffffff; /* Ensures a white background */
+    background-color: #000e31; 
 }
 
 .sidebar {
@@ -13,7 +13,7 @@ body, html {
     left: 0;
     width: 250px; /* Adjust the sidebar width as necessary */
     height: 100%; /* Makes the sidebar full-height */
-    background-color: #f4f4f4; /* Light grey background for sidebar */
+    background-color: #001446; /* Light grey background for sidebar */
     padding: 20px;
     box-shadow: 2px 0 5px rgba(0,0,0,0.1); /* Subtle shadow for depth */
 }
@@ -61,23 +61,19 @@ p {
 
 /* Modal styling for image zoom */
 .modal {
-    display: none; /* Hidden by default, shown on click */
-    position: fixed; /* Stay in place */
-    z-index: 1000; /* Sit on top of everything else */
-    padding-top: 100px; /* Position from the top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Allow scrolling if necessary */
-    background-color: rgba(0,0,0,0.9); /* Black background with opacity */
+    display: flex; /* Use Flexbox for centering */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    padding-top: 0; /* Remove padding if using flexbox for centering */
+    overflow-y: auto; /* Add scrolling for smaller screens */
 }
 
 .modal-content {
-    margin: auto;
-    display: block;
-    width: 80%; /* Adjust based on screen size */
-    max-width: 700px; /* Maximum width */
+    width: auto;  /* Maintain aspect ratio */
+    max-width: 90%; /* Limit width to avoid overflow */
+    max-height: 80vh; /* Limit height to avoid being cut off, adjust if needed */
+    margin: auto; /* Center the image */
+    display: block; /* Ensure it's treated as a block-level element */
 }
 
 .close {
