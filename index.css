@@ -35,9 +35,9 @@ body, html {
 }
 
 .visualization img {
-    width: 100%; /* Makes the image responsive */
-    border-radius: 4px; /* Slight rounding of corners */
-    margin-bottom: 10px; /* Adds space below the image */
+    width: auto; /* Maintain the aspect ratio */
+    height: 80vh; /* Set height to 80% of the viewport height */
+    max-height: 100%; /* Ensure it doesn't get bigger than its container */
 }
 
 .description {
