@@ -1,104 +1,98 @@
-/* index.css */
+/* index.css - Style adjustments and corrections */
 
 body, html {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-    background-color: #ffffff; /* White background */
+    background-color: #ffffff; /* Ensures a white background */
 }
 
 .sidebar {
     position: fixed;
     top: 0;
     left: 0;
-    width: 250px; /* Width of the sidebar */
-    height: 100%; /* Full-height */
-    background-color: #f4f4f4; /* Light grey background */
+    width: 250px; /* Adjust the sidebar width as necessary */
+    height: 100%; /* Makes the sidebar full-height */
+    background-color: #f4f4f4; /* Light grey background for sidebar */
     padding: 20px;
-    box-shadow: 2px 0 5px rgba(0,0,0,0.1); /* Adds a slight shadow to the sidebar */
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1); /* Subtle shadow for depth */
 }
 
 .profile-picture {
     width: 100px;
     height: 100px;
-    border-radius: 50%; /* Makes the image round */
-    margin-bottom: 20px; /* Adds space below the profile picture */
+    border-radius: 50%; /* Circular profile pictures */
+    margin-bottom: 20px; /* Space below the profile picture */
 }
 
 .main-content {
-    margin-left: 270px; /* Adjust based on the sidebar width */
+    margin-left: 270px; /* Adjust this based on the actual width of the sidebar */
     padding: 20px;
 }
 
-.visualization {
-    margin-bottom: 40px;
-}
-
 .visualization img {
-    height: 80vh; /* Adjust based on your preference */
+    height: 80vh; /* Adjust the height based on viewport */
     width: auto; /* Maintain aspect ratio */
-    max-height: 100%; /* Ensure the image doesn't exceed its container */
+    max-height: 100%; /* Prevent the image from exceeding its container */
 }
 
 .description {
     position: sticky;
-    top: 20px; /* Adjust based on your header or desired spacing */
-    max-height: 60vh; /* Adjust based on your preference */
-    overflow-y: auto; /* Allow inner scrolling if the content is too long */
-    width: 200px; /* Adjust based on your preference */
+    top: 20px; /* Distance from the top of the viewport */
+    max-height: 60vh; /* Adjust based on preference and viewport */
+    overflow-y: auto; /* Scrollbar for lengthy descriptions */
+    width: 200px; /* Adjust width as needed */
 }
 
 .pdf-container {
     height: 80vh; /* Adjust based on your preference */
     width: auto; /* Maintain aspect ratio */
-    max-height: 100%; /* Ensure the image doesn't exceed its container */
+    max-height: 100%; /* Prevent the PDF from exceeding its container */
 }
 
+/* Text styling */
 h1, h2, h3, h4, h5, h6 {
-    color: #333; /* Dark grey color for text */
+    color: #333; /* Dark grey for better readability */
 }
 
 p {
-    line-height: 1.6; /* Makes text more readable */
+    line-height: 1.6; /* Improved readability for paragraphs */
 }
 
-/* Style the modal */
+/* Modal styling for image zoom */
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1000; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+    display: none; /* Hidden by default, shown on click */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top of everything else */
+    padding-top: 100px; /* Position from the top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Allow scrolling if necessary */
+    background-color: rgba(0,0,0,0.9); /* Black background with opacity */
 }
 
-/* Style the modal content (image) */
 .modal-content {
-  margin: auto;
-  display: block;
-  width: 80%; /* Could be more or less, depending on screen size */
-  max-width: 700px; /* Adjust based on your needs */
+    margin: auto;
+    display: block;
+    width: 80%; /* Adjust based on screen size */
+    max-width: 700px; /* Maximum width */
 }
 
-/* The Close Button */
 .close {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #f1f1f1;
-  font-size: 40px;
-  font-weight: bold;
-  transition: 0.3s;
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
 }
 
 .close:hover,
 .close:focus {
-  color: #bbb;
-  text-decoration: none;
-  cursor: pointer;
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
 }
