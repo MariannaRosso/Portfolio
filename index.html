@@ -3,71 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data Visualization Portfolio</title>
-    <style>
-        body, html {
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            height: 100%;
-            font-family: Arial, sans-serif;
-        }
-        .sidebar {
-            position: fixed;
-            width: 300px;
-            height: 100%;
-            background-color: #f4f4f4;
-            padding: 20px;
-        }
-        .profile-picture {
-            width: 100%;
-            border-radius: 50%;
-            margin-bottom: 20px;
-        }
-        .main-content {
-            margin-left: 320px;
-            padding: 20px;
-            background-color: #fff;
-        }
-        .visualization {
-            margin-bottom: 40px;
-        }
-        .visualization img {
-            width: 100%;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            padding: 5px;
-        }
-        .description {
-            margin-top: 10px;
-        }
-    </style>
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
 
-    <div class="sidebar">
-        <img src="your-picture-url.jpg" alt="Your Name" class="profile-picture">
-        <h2>Marianna Rosso</h2>
-        <p>Post Doc, Data Analyst, and Project Manager</p>
-        <p>Short bio or description goes here.</p>
+<div class="sidebar">
+    <!-- Adjust the src to your profile picture -->
+    <img src="Picture1.png" alt="Profile Picture" class="profile-picture">
+    <h2>Your Name</h2>
+    <p>Data Visualization Expert</p>
+    <p>Short bio or description goes here.</p>
+</div>
+
+<div class="main-content">
+    <!-- Images -->
+    <div class="visualization">
+        <img src="Iceland.png" alt="Iceland Visualization">
+        <p class="description">Description of Iceland Visualization.</p>
+    </div>
+    <div class="visualization">
+        <img src="chapter1.png" alt="Chapter 1 Visualization">
+        <p class="description">Description of Chapter 1 Visualization.</p>
+    </div>
+    <div class="visualization">
+        <img src="chapter2.png" alt="Chapter 2 Visualization">
+        <p class="description">Description of Chapter 2 Visualization.</p>
+    </div>
+    <div class="visualization">
+        <img src="dogbreeds.jpg" alt="Dog Breeds Visualization">
+        <p class="description">Description of Dog Breeds Visualization.</p>
+    </div>
+    <div class="visualization">
+        <img src="fuels.jpg" alt="Fuels Visualization">
+        <p class="description">Description of Fuels Visualization.</p>
+    </div>
+    <div class="visualization">
+        <img src="visualization1.png" alt="Visualization 1">
+        <p class="description">Description of Visualization 1.</p>
     </div>
 
-    <div class="main-content">
-        <!-- Visualization 1 -->
-        <div class="visualization">
-            <img src="visualization1.png" alt="Visualization 1">
-            <p class="description">Short description of Visualization 1.</p>
-        </div>
-        
-        <!-- Visualization 2 -->
-        <div class="visualization">
-            <img src="visualization2.png" alt="Visualization 2">
-            <p class="description">Short description of Visualization 2.</p>
-        </div>
-        
-        <!-- Add more visualizations as needed -->
-        
+    <!-- PDFs -->
+    <div class="visualization">
+        <embed src="LaLibreriaDiSestriLevante.pdf" type="application/pdf" width="600" height="400">
+        <p class="description">Description of La Libreria Di Sestri Levante.</p>
     </div>
+    <div class="visualization">
+        <embed src="infographic_3RCC.pdf" type="application/pdf" width="600" height="400">
+        <p class="description">Description of Infographic 3RCC.</p>
+    </div>
+
+</div>
 
 </body>
 </html>
