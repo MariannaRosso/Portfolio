@@ -13,7 +13,7 @@ created for work, or for fun.
 
 ![Erasmus students](Visualizations/Picture1.png)
 
-![Erasmus students](Visualizations/animal_use.png)
+![Erasmus students](Visualizations/Screenshot.png)
 
 ![Erasmus students](Visualizations/sestri_export.png)
 
