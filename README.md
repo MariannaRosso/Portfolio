@@ -1,3 +1,3 @@
 # Portfolio
 
-![Alt text](iceland.png)
+![Alt text](Iceland.png)
