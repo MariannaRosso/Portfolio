@@ -7,30 +7,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="loading">Loading<span>.</span><span>.</span><span>.</span></div>
+    <div id="portfolio" class="hidden">
+        <h1>DataViz Portfolio, Marianna Rosso</h1>
+        <div class="slideshow-container">
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <img src="Iceland.png" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="chapter1.png" style="width:100%">
+            </div>
+            <!-- Add more slides for additional figures -->
 
-<div id="loadingScreen">
-    Loading<span class="dots">...</span>
-</div>
-
-<div id="mainContent" class="hide">
-    <div id="portfolioHeader">DataViz Portfolio, Marianna Rosso</div>
-    <div class="slideshow-container">
-        <!-- Full-width images with number and caption text -->
-        <div class="mySlides fade">
-            <img src="Iceland.png" alt="Iceland Visualization">
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
-        <div class="mySlides fade">
-            <img src="chapter1.png" alt="Chapter 1 Visualization">
-        </div>
-        <div class="mySlides fade">
-            <img src="chapter2.png" alt="Chapter 2 Visualization">
-        </div>
-        <!-- Next and previous buttons -->
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
-</div>
 
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
