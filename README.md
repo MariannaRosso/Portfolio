@@ -17,7 +17,7 @@ created for work, or for fun.
 
 ![Erasmus students](Visualizations/libreria.png)
 
-![Erasmus students](Visualizations/`website plot1.png`)
+![Erasmus students](Visualizations/website_plot1.png)
 
 All visualization were created in R.<br />
 
