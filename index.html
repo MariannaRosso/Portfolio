@@ -3,69 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Portfolio</title>
-    <link rel="stylesheet" href="index.css">
+    <title>DataViz Portfolio | Marianna Rosso</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="sidebar">
-    <img src="profile.png" alt="Profile Picture" class="profile-picture">
-    <h2>Your Name</h2>
-    <p>Data Visualization Expert</p>
-    <p>Short bio or description goes here.</p>
+<div id="loadingScreen">
+    Loading<span class="dots">...</span>
 </div>
 
-<div class="main-content">
-    <!-- Images -->
-    <div class="visualization">
-        <img src="Iceland.png" alt="Iceland Visualization">
-        <!-- You can add description here if you want -->
-    </div>
-
-    <div class="visualization">
-        <img src="chapter1.png" alt="Chapter 1 Visualization">
-        <!-- Description -->
-    </div>
-
-    <div class="visualization">
-        <img src="chapter2.png" alt="Chapter 2 Visualization">
-        <!-- Description -->
-    </div>
-
-    <div class="visualization">
-        <img src="dogbreeds.jpg" alt="Dog Breeds Visualization">
-        <!-- Description -->
-    </div>
-
-    <div class="visualization">
-        <img src="fuels.jpg" alt="Fuels Visualization">
-        <!-- Description -->
-    </div>
-
-    <div class="visualization">
-        <img src="visualization1.png" alt="Visualization 1">
-        <!-- Description -->
-    </div>
-
-    <!-- PDFs -->
-    <div class="pdf-container">
-        <embed src="LaLibreriaDiSestriLevante.pdf" type="application/pdf" width="100%" height="800">
-    </div>
-    <div class="pdf-container">
-        <embed src="infographic_3RCC.pdf" type="application/pdf" width="100%" height="800">
+<div id="mainContent" class="hide">
+    <div id="portfolioHeader">DataViz Portfolio, Marianna Rosso</div>
+    <div class="slideshow-container">
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+            <img src="Iceland.png" alt="Iceland Visualization">
+        </div>
+        <div class="mySlides fade">
+            <img src="chapter1.png" alt="Chapter 1 Visualization">
+        </div>
+        <div class="mySlides fade">
+            <img src="chapter2.png" alt="Chapter 2 Visualization">
+        </div>
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
 </div>
 
-<!-- The Modal for Image Zoom -->
-<div id="myModal" class="modal">
-    <!-- The Close Button -->
-    <span class="close">&times;</span>
-    <!-- Modal Content (The Image) -->
-    <img class="modal-content" id="img01">
-    <!-- Modal Caption (Image Title) -->
-    <div id="caption"></div>
-</div>
-
-<script src="index.js"></script> <!-- Link your JavaScript file -->
+<script src="script.js"></script>
 </body>
 </html>
