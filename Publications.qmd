@@ -2,4 +2,32 @@
 toc: false
 ---
 
-Publication
+## Publication
+
+**Rosso M**, Herrera A, Würbel H, Voelkl B (2024) "Evidence of HARKing in mouse behavioural tests of anxiety." *Royal Society Open Science* <a href="http://dx.doi.org/10.1098/rsos.231744" target="_blank">DOI</a>
+
+![](images/pub/HARKing.jpg){fig-align="center" width="350"}
+
+Zurrer WE, Cannon AE, Ewing E, **Rosso M**, Reich DS, Ineichen BV (2023) "Auto-STEED: A data mining tool for automated extraction of experimental parameters and risk of bias items from in vivo publications." *bioRxiv* <a href="https://doi.org/10.1101%2F2023.02.24.529867;http://dx.doi.org/10.1101/2023.02.24.529867" target="_blank">DOI</a>
+
+![](images/pub/STEED.png){fig-align="center" width="350"}
+
+**Rosso M**, Wirz R, Loretan AV, Sutter NA, Pereira da Cunha CT, Jaric I, Würbel H, Voelkl B (2022) "Reliability of common mouse behavioural tests of anxiety: A systematic review and meta-analysis on the effects of anxiolytics." *Neuroscience & Biobehavioral Reviews* <a href="http://dx.doi.org/10.1016/j.neubiorev.2022.104928" target="_blank">DOI</a>
+
+![](images/pub/Reliability.jpg){fig-align="center" width="350"}
+
+Novak J, Jaric I, **Rosso M**, Rufener R, Touma C, Würbel H (2022) "Handling method affects measures of anxiety, but not chronic stress in mice." *Scientific Reports* <a href="https://doi.org/10.1038%2Fs41598-022-25090-9;http://dx.doi.org/10.1038/s41598-022-25090-9" target="_blank">DOI</a>
+
+![](images/pub/Handling.png){fig-align="center" width="350"}
+
+Jaric I, Voelkl B, Clerc M, Schmid MW, Novak J, **Rosso M**, Rufener R, von Kortzfleisch VT, Richter SH, Buettner M, Bleich A, Amrein I, Wolfer DP, Touma C, Sunagawa S, Würbel H (2022) "The rearing environment persistently modulates mouse phenotypes from the molecular to the behavioural level." *PLOS Biology* <a href="https://doi.org/10.1371%2Fjournal.pbio.3001837;http://dx.doi.org/10.1371/journal.pbio.3001837" target="_blank">DOI</a>
+
+![](images/pub/rearing.PNG){fig-align="center" width="350"}
+
+von Kortzfleisch VT, Ambrée O, Karp NA, Meyer N, Novak J, Palme R, **Rosso M**, Touma C, Würbel H, Kaiser S, Sachser N, Richter SH (2022) "Do multiple experimenters improve the reproducibility of animal studies?." *PLOS Biology* <a href="https://doi.org/10.1371%2Fjournal.pbio.3001564;http://dx.doi.org/10.1371/journal.pbio.3001564" target="_blank">DOI</a>
+
+![](images/pub/multiplexp.PNG){fig-align="center" width="350"}
+
+Bailoo JD, Voelkl B, Varholick J, Novak J, Murphy E, **Rosso M**, Palme R, Würbel H (2020) "Effects of weaning age and housing conditions on phenotypic differences in mice." *Scientific Reports* <a href="https://doi.org/10.1038%2Fs41598-020-68549-3;http://dx.doi.org/10.1038/s41598-020-68549-3" target="_blank">DOI</a>
+
+![](images/pub/weaning.png){fig-align="center" width="350"}
