@@ -2,4 +2,10 @@
 toc: false
 ---
 
-## This is a website about me Mari
+
+![](images/avatar.png){.circle-crop width=300 height=300 fig-align="center"}
+
+
+<footer>
+This website was created with <a href="https://quarto.org/" target="_blank">Quarto</a> in R by me.
+</footer>

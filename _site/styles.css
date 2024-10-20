@@ -6,68 +6,22 @@ body {
   width: 100%;
 }
 
-/* Video container */
-.background-video-container {
-  position: fixed; /* This ensures it is fixed to the viewport */
-  bottom: 0;  /* Align to the bottom of the browser window */
-  left: 0;    /* Align to the left of the browser window */
-  width: auto;
-  height: auto;
-  z-index: -1;  /* Make sure it's behind the content */
-}
-
-/* Resizing the video */
-.background-video-container video {
-  width: 1000px;   /* Adjust the size to your needs */
-  height: auto;   /* Automatically adjust height based on the width */
-  object-fit: cover;  /* Ensures the video covers the entire space */
-}
-
-/* Adjust the table columns */
-table {
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
   width: 100%;
+  text-align: center;
+  background-color: #f1f1f1; /* Optional: add a background color */
+  padding: 10px;
+  font-size: 12px;
+  color: #333;
+  border-top: 1px solid #ddd; /* Optional: a line above the footer */
 }
 
-table tr td:first-child {
-  width: 20%;  /* Adjust this percentage to control the width of the first column */
-  white-space: nowrap;
-}
-
-table tr td:nth-child(2) {
-  width: 80%;  /* Adjust this percentage for the second column */
-}
-
-
-.responsive-video {
-  width: 120%; /* Video will take 100% of its container’s width */
-  height: auto; /* Maintains the aspect ratio automatically */
-}
-
-/* For small screens, adjust how the video behaves */
-@media only screen and (max-width: 768px) {
-  .responsive-video {
-    object-fit: cover; /* Crops the video if needed to fit smaller screens */
-    height: 200px; /* Adjust this value to control how much of the video is shown on small screens */
-  }
-}
-
-.callout-caution.talk {
-  border-left: 4px solid #00ba6f !important;  /* Example color for talks */
-  background-color: #f7fcf9 !important;  /* Light background for talks */
-}
-
-/* Style for posters - change the border and background color */
-.callout-caution.poster {
-  border-left: 4px solid #ffa602 !important;  /* Example color for posters */
-  background-color: #fffcf7 !important;  /* Light background for posters */
-}
-
-.image-row {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.image-row img {
-  margin: 10px;
+.circle-crop {
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover;  /* Ensures the image is scaled to cover the area */
+  display: block;
+  margin: auto; /* Centers the image */
 }

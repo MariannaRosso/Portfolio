@@ -4,27 +4,21 @@ project:
 
 website:
   sidebar: false
-  title: "SR-SAVI Conference"
+  title: "Marianna Rosso"
   navbar:
     left:
       - href: index.qmd
         text: Welcome
-      - href: Venue.qmd
-        text: Venue
-      - href: program.qmd
-        text: Program
-      - href: SocialEvent.qmd
-        text: Social Event
-      - href: speakers.qmd
-        text: Speakers
-      - href: RepoChallenge.qmd
-        text: Repro Challenge
-      - href: about.qmd
-        text: About
+      - href: Graphics.qmd
+        text: Graphics
+      - href: Projects.qmd
+        text: Projects
+      - href: Publications.qmd
+        text: Publications
 
 format:
   html:
-    theme: flatly
+    theme: journal
     css: styles.css
     toc: true
 
