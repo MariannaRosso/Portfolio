@@ -1,35 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://MariannaRosso.github.io/Portfolio/abstracts.html</loc>
-    <lastmod>2024-10-20T07:35:59.291Z</lastmod>
+    <loc>https://MariannaRosso.github.io/Portfolio/Projects.html</loc>
+    <lastmod>2024-10-20T09:33:22.745Z</lastmod>
+  </url>
+  <url>
+    <loc>https://MariannaRosso.github.io/Portfolio/Graphics.html</loc>
+    <lastmod>2024-10-20T09:33:22.745Z</lastmod>
+  </url>
+  <url>
+    <loc>https://MariannaRosso.github.io/Portfolio/DataViz.html</loc>
+    <lastmod>2024-10-20T09:33:22.745Z</lastmod>
+  </url>
+  <url>
+    <loc>https://MariannaRosso.github.io/Portfolio/Publications.html</loc>
+    <lastmod>2024-10-20T09:33:22.745Z</lastmod>
   </url>
   <url>
     <loc>https://MariannaRosso.github.io/Portfolio/index.html</loc>
-    <lastmod>2024-10-20T07:35:59.331Z</lastmod>
-  </url>
-  <url>
-    <loc>https://MariannaRosso.github.io/Portfolio/program.html</loc>
-    <lastmod>2024-10-20T07:35:59.335Z</lastmod>
-  </url>
-  <url>
-    <loc>https://MariannaRosso.github.io/Portfolio/Venue.html</loc>
-    <lastmod>2024-10-20T07:35:59.139Z</lastmod>
-  </url>
-  <url>
-    <loc>https://MariannaRosso.github.io/Portfolio/speakers.html</loc>
-    <lastmod>2024-10-20T07:35:59.335Z</lastmod>
-  </url>
-  <url>
-    <loc>https://MariannaRosso.github.io/Portfolio/about.html</loc>
-    <lastmod>2024-10-20T07:35:59.291Z</lastmod>
-  </url>
-  <url>
-    <loc>https://MariannaRosso.github.io/Portfolio/SocialEvent.html</loc>
-    <lastmod>2024-10-20T07:35:59.139Z</lastmod>
-  </url>
-  <url>
-    <loc>https://MariannaRosso.github.io/Portfolio/RepoChallenge.html</loc>
-    <lastmod>2024-10-20T07:35:59.139Z</lastmod>
+    <lastmod>2024-10-20T09:33:23.016Z</lastmod>
   </url>
 </urlset>
