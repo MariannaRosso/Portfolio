@@ -2,7 +2,7 @@
 toc: false
 ---
 
-## Publication
+## Publications
 
 **Rosso M**, Herrera A, Würbel H, Voelkl B (2024) "Evidence of HARKing in mouse behavioural tests of anxiety." *Royal Society Open Science* <a href="http://dx.doi.org/10.1098/rsos.231744" target="_blank">DOI</a>
 

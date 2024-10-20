@@ -9,6 +9,8 @@ website:
     left:
       - href: index.qmd
         text: Welcome
+      - href: CV.qmd
+        text: CV
       - href: Graphics.qmd
         text: Graphics
       - href: Projects.qmd

@@ -25,3 +25,16 @@ footer {
   display: block;
   margin: auto; /* Centers the image */
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;700&display=swap');
+
+/* Apply custom font and color to body text */
+body {
+  font-family: 'Gothic A1', sans-serif;
+  color: #404040; /* Dark gray for all text */
+}
+
+/* Keep the headings (titles) unchanged or specify a different color */
+h1, h2, h3, h4, h5, h6 {
+  color: #1f1f1f; /* Or specify a different color like #000000 or blue */
+}

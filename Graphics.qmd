@@ -1,5 +1,54 @@
 ---
 toc: false
+format:
+  html:
+    css: style.css
 ---
 
 ## Graphics
+
+A selection of visualizations or infographics I have created for work, or for fun.
+
+<div style="display: flex; flex-direction: column; align-items: center; gap: 20px;">
+
+<div>
+  <img src="Visualizations/animal_use.png" alt="Animal Use" style="width: 100%;">
+</div>
+
+<div>
+  <img src="Visualizations/chapter1.png" alt="Chapter 1" style="width: 100%;">
+</div>
+
+<div>
+  <img src="Visualizations/chapter2.png" alt="Chapter 2" style="width: 100%;">
+</div>
+
+<div>
+  <img src="Visualizations/dogbreeds.jpg" alt="Dog Breeds" style="width: 100%;">
+</div>
+
+<div>
+  <img src="Visualizations/fuels.jpg" alt="Fuels" style="width: 100%;">
+</div>
+
+<div>
+  <img src="Visualizations/Iceland.png" alt="Iceland" style="width: 100%;">
+</div>
+
+<div>
+  <img src="Visualizations/Picture1.png" alt="Picture 1" style="width: 100%;">
+</div>
+
+<div>
+  <img src="Visualizations/Screenshot.png" alt="Screenshot" style="width: 100%;">
+</div>
+
+<div>
+  <img src="Visualizations/sestri_export.png" alt="Sestri Export" style="width: 100%;">
+</div>
+
+<div>
+  <img src="Visualizations/website_plot1.jpg" alt="Website Plot 1" style="width: 100%;">
+</div>
+
+</div>
