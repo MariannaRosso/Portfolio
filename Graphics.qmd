@@ -52,3 +52,6 @@ A selection of visualizations or infographics I have created for work, or for fu
 </div>
 
 </div>
+
+
+<footer>All graphics were created with R and Inkscape. <a href="mailto:marianna.rosso@uzh.ch" target="_blank">Contact me</a> if you're interested in knowing more.</footer>
