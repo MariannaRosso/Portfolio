@@ -1,0 +1,36 @@
+---
+toc: false
+---
+
+<div class="background-video-container">
+  <video autoplay loop muted playsinline>
+    <source src="LogoVideo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+## Organizers
+
+Let's give credit where credit is due. This conference would be be possible without our amazing team:
+
+-   <a href="https://stride-lab.pages.uzh.ch/website/people/rosso-marianna/" target="_blank">Marianna Rosso</a>
+
+-   <a href="https://stride-lab.pages.uzh.ch/website/people/ineichen-benjamin-victor/" target="_blank">Benjamin Ineichen</a>
+
+-   <a href="https://www.bihealth.org/en/research/research-group/preclinical-systematic-reviews-and-meta-analyses" target="_blank">Sarah McCann</a>
+
+-   <a href="https://www.radboudumc.nl/en/people/kimberley-wever" target="_blank">Kimberley Wever</a>
+
+-   <a href="https://www.niehs.nih.gov/research/atniehs/labs/iha/ohat/staff/rooney" target="_blank">Andrew Rooney</a>
+
+-   <a href="https://www.ed.ac.uk/profile/dr-emily-sena" target="_blank">Emily Sena</a>
+
+
+## Feeback
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdo2w5t6ZH6GeYqKa3fbtpyixZv5A3l9HsGFjsF3BfC2G4gTg/viewform?embedded=true" width="640" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+## Credits
+
+This website was created with <a href="https://quarto.org/" target="_blank">Quarto</a> by <a href="https://stride-lab.pages.uzh.ch/website/people/rosso-marianna/" target="_blank">Marianna Rosso</a>. After the event this website will be migrated <a href="https://github.com/marianna-rosso-uzh/SRSAVI" target="_blank">here</a>.
+

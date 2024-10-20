@@ -1,0 +1,244 @@
+---
+toc: false
+format: 
+  html:
+    css: styles.css
+---
+
+<div class="background-video-container">
+  <video autoplay loop muted playsinline>
+    <source src="LogoVideo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+The conference will be held at the University of Zürich, in building RAA, Rämistrasse 59, 8001 Zürich, Aula RAA-G01, floor G
+
+*Please note: the program is subject to minor changes until the beginning of the conference*
+
+# Day 1 (October 17th)
+<table>
+  <tr><td colspan="2"><hr></td></tr>
+  <tr>
+    <td><strong>8:30-8:50</strong></td>
+    <td>Registration and Welcome</td>
+  </tr>
+  <tr><td colspan="2"><hr></td></tr>
+  <tr>
+    <td><strong>8:50-9:00</strong></td>
+    <td>Introduction and Housekeeping</td>
+  </tr>
+  <tr><td colspan="2"><hr></td></tr>
+  <tr>
+    <td colspan="2" style="text-align: left;"><u><em>Session 1: Translational Research Bridging Animal Studies to Human Applications and Policy Implementation</u></em></td>
+  </tr>
+  <tr><td colspan="2"><hr></td></tr>
+  <tr>
+    <td><strong>9:00-9:30</strong></td>
+    <td>Keynote by <strong>Benjamin Ineichen<strong></td>
+  </tr>
+  <tr><td colspan="2"><hr></td></tr>
+  <tr>
+    <td><strong>9:30-10:30</strong></td>
+    <td>Presentations (15 minutes each):</td>
+  </tr>
+  <tr><td colspan="2"><hr></td></tr>
+  <tr>
+    <td></td>
+    <td><strong>Mala Karmakar:</strong> Open Data Commons for Stroke: a free community platform to share research data and facilitate synthesis</td>
+  </tr>
+  <tr><td colspan="2"><hr></td></tr>
+  <tr>
+    <td></td>
+    <td><strong>Carolyne Huang:</strong> A simulation study to quantify successful translation of results from preclinical studies to human trials</td>
+  </tr>
+  <tr><td colspan="2"><hr></td></tr>
+  <tr>
+    <td></td>
+    <td><strong>Charis Wong:</strong> Selecting amantadine as the 3rd experimental arm for MND-SMART using a data-driven framework</td>
+  </tr>
+  <tr><td colspan="2"><hr></td></tr>
+  <tr>
+    <td><strong>10:30-11:00</strong></td>
+    <td>Coffee break</td>
+  </tr>
+  <tr><td colspan="2"><hr></td></tr>
+  <tr>
+    <td colspan="2" style="text-align: left;"><u><em>Session 2: Promoting Rigour and Transparency in Systematic Reviews 
+</u></em></td>
+  </tr>
+  <tr><td colspan="2"><hr></td></tr>
+  
+  <tr>
+    <td><strong>11:00-11:30</strong></td>
+    <td>Keynote by <strong>David Moher</strong></td>
+  </tr>
+  <tr><td colspan="2"><hr></td></tr>
+  <tr>
+    <td><strong>11:30-12:30</strong></td>
+    <td>Presentations (15 minutes each):</td>
+  </tr>
+  <tr><td colspan="2"><hr></td></tr>
+  <tr>
+    <td></td>
+    <td><strong>Alexandra Bannach-Brown:</strong> Barriers and enablers to conducting systematic reviews at a German University Medical Center – Findings from the “Communities for Open Research Synthesis” project</td>
+  </tr>
+  <tr><td colspan="2"><hr></td></tr>
+  <tr>
+    <td></td>
+    <td><strong>Aileen MacLellan:</strong> Assessing scientific rigour and 3Rs implementation in Canadian research: An investigation of animal use protocols</td>
+  </tr>
+  <tr><td colspan="2"><hr></td></tr>
+  <tr>
+    <td></td>
+    <td><strong>Martijn Nolte:</strong> Better Science through More Transparency: Pilot study on stimulating transparent laboratory animal research</td>
+  </tr>
+  <tr><td colspan="2"><hr></td></tr>
+  <tr>
+    <td></td>
+    <td><strong>Clara Sanchez-Izquierdo Lozano:</strong> Methodological assessment of in vitro systematic reviews: a systematic review</td>
+  </tr>
+  <tr><td colspan="2"><hr></td></tr>
+  <tr>
+    <td><strong>12:30-13:30</strong></td>
+    <td>Lunch break</td>
+  </tr>
+  <tr><td colspan="2"><hr></td></tr>
+  <tr>
+    <td><strong>13:30-14:00</strong></td>
+    <td>Keynote by <strong>Georgia Salanti</strong></td>
+  </tr>
+  <tr><td colspan="2"><hr></td></tr>
+  <tr>
+    <td colspan="2" style="text-align: left;"><u><em>Reproducibility Challenge</u></em></td>
+  </tr>
+  <tr><td colspan="2"><hr></td></tr>
+  <tr>
+    <td><strong>14:00-14:15</strong></td>
+    <td>Introduction to the challenge by Kimberley Wever and Sarah McCann</strong></td>
+  </tr>
+  <tr><td colspan="2"><hr></td></tr>
+  <tr>
+    <td><strong>14:15-15:15</strong></td>
+    <td>Presentations by the challengers (15 minutes each):</td>
+  </tr>
+  <tr><td colspan="2"><hr></td></tr>
+  <tr>
+    <td></td>
+    <td>Sofja Vojvodic and team</td>
+  </tr>
+  <tr><td colspan="2"><hr></td></tr>
+  <tr>
+    <td></td>
+    <td>Maria Economou and Torsten Rackoll</td>
+  </tr>
+  <tr><td colspan="2"><hr></td></tr>
+  <tr>
+    <td></td>
+    <td>Fiona Ramage and team</td>
+  </tr>
+  <tr><td colspan="2"><hr></td></tr>
+  <tr>
+    <td></td>
+    <td>Matheus Gallas-Lopes and team</td>
+  </tr>
+  <tr><td colspan="2"><hr></td></tr>
+  <tr>
+    <td><strong>15:15-16:00</strong></td>
+    <td>General discussion and steps moving forward</td>
+  </tr>
+  <tr><td colspan="2"><hr></td></tr>
+  <tr>
+    <td><strong>17:00 onwards</strong></td>
+    <td><a href="SocialEvent.qmd">Social Event</a></td>
+  </tr>
+</table>
+
+
+# Day 2 (October 18th)
+
+<table>
+  <tr><td colspan="2"><hr></td></tr>
+  <tr>
+    <td colspan="2" style="text-align: left;"><u><em>Session 3: Identification and Management of Questionable Research Practices and Potential Research Misconduct</u></em></td>
+  </tr>
+  <tr><td colspan="2"><hr></td></tr>
+  <tr>
+    <td><strong>9:00-9:30</strong></td>
+    <td>Keynote by <strong>Elisabeth Bik</strong></td>
+  </tr>
+  <tr><td colspan="2"><hr></td></tr>
+  <tr>
+    <td><strong>9:30-10:15</strong></td>
+    <td>Presentations (15 minutes each):</td>
+  </tr>
+  <tr><td colspan="2"><hr></td></tr>
+  <tr>
+    <td></td>
+    <td><strong>Kimberley Wever:</strong> Uncovering Duplicated Images in Scientific Literature - Systematic Review as a Tool for Detection</td>
+  </tr>
+  <tr><td colspan="2"><hr></td></tr>
+  <tr>
+    <td></td>
+    <td><strong>Otto Kalliokoski:</strong> It is time to talk about fraudulent studies in meta-analytical evidence synthesis – learnings from a preclinical systematic review</td>
+  </tr>
+  <tr><td colspan="2"><hr></td></tr>
+  <tr>
+    <td></td>
+    <td><strong>Sara Steele:</strong> Underreporting in non-clinical publications: Development of the rigor assessment tool (RAT)</td>
+  </tr>
+  <tr><td colspan="2"><hr></td></tr>
+  <tr>
+    <td><strong>10:15-10:45</strong></td>
+    <td>Coffee break</td>
+  </tr>
+  <tr><td colspan="2"><hr></td></tr>
+  <tr>
+    <td colspan="2" style="text-align: left;"><u><em>Session 4: The Integration of Automation and AI in Systematic Reviews and Meta-analyses</u></em></td>
+  </tr>
+  <tr><td colspan="2"><hr></td></tr>
+  <tr>
+    <td><strong>10:45-11:15</strong></td>
+    <td>Keynote by <strong>Kaitlyn Hair</strong></td>
+  </tr>
+  <tr><td colspan="2"><hr></td></tr>
+  <tr>
+    <td><strong>11:15-11:55</strong></td>
+    <td>Presentations (10 minutes each):</td>
+  </tr>
+  <tr><td colspan="2"><hr></td></tr>
+  <tr>
+    <td></td>
+    <td><strong>Ulf Tölch:</strong> Assessing quality criteria in publications through AI assisted pipelines</td>
+  </tr>
+  <tr><td colspan="2"><hr></td></tr>
+  <tr>
+    <td></td>
+    <td><strong>Andrew Rooney:</strong> Improving workflow for evidence-based decision making in environmental health evaluations</td>
+  </tr>
+  <tr><td colspan="2"><hr></td></tr>
+  <tr>
+    <td></td>
+    <td><strong>Francesca Tinsdeall:</strong> A Comprehensive Evaluation of Stopping Rules in Technology-Assisted Review: When Have We Screened Enough?</td>
+  </tr>
+  <tr><td colspan="2"><hr></td></tr>
+  <tr>
+    <td></td>
+    <td><strong>Pu Yiyuan:</strong> Large Language Models in systematic review automation of Alzheimer’s research: enhancing living evidence landscape with PICO entity extraction</td>
+  </tr>
+  <tr><td colspan="2"><hr></td></tr>
+  <tr>
+    <td><strong>12:05-12:35</strong></td>
+    <td>Panel discussion with speakers and keynote</td>
+  </tr>
+  <tr><td colspan="2"><hr></td></tr>
+  <tr>
+    <td><strong>12:35-14:30</strong></td>
+    <td>Standing lunch and walking poster session</td>
+  </tr>
+  <tr><td colspan="2"><hr></td></tr>
+  <tr>
+    <td><strong>14:30-15:00</strong></td>
+    <td>Awards, acknowledgements & closing by <strong>Benjamin Ineichen & organizers</strong></td>
+  </tr>
+</table>
