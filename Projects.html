@@ -93,16 +93,12 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Welcome</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./CV.html"> 
-<span class="menu-text">CV</span></a>
+    <a class="nav-link active" href="./Projects.html" aria-current="page"> 
+<span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./Graphics.html"> 
 <span class="menu-text">Graphics</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./Projects.html" aria-current="page"> 
-<span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./Publications.html"> 
@@ -126,14 +122,80 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="projects" class="level2">
-<h2 class="anchored" data-anchor-id="projects">Projects</h2>
-</section>
-<section id="outreach" class="level2">
-<h2 class="anchored" data-anchor-id="outreach">Outreach</h2>
+<div class="section1">
+<div class="vertical-line">
+
+</div>
+<div class="text-box left">
+<pre><code>This is the first text box on the left with fade-in effect.</code></pre>
+</div>
+<div class="text-box right">
+<pre><code>&lt;p&gt;This is the second text box on the right with fade-in effect.&lt;/p&gt;</code></pre>
+</div>
+</div>
+<div class="section2">
+<div class="vertical-line">
+
+</div>
+<div class="text-box left">
+<pre><code>&lt;p&gt;This is the third text box on the left with fade-in effect.&lt;/p&gt;</code></pre>
+</div>
+<div class="text-box right">
+<pre><code>&lt;p&gt;This is the fourth text box on the right with fade-in effect.&lt;/p&gt;</code></pre>
+</div>
+</div>
+<div class="section3">
+<div class="vertical-line">
+
+</div>
+<div class="text-box left">
+<pre><code>This is the first text box on the left with fade-in effect.</code></pre>
+</div>
+<div class="text-box right">
+<pre><code>&lt;p&gt;This is the second text box on the right with fade-in effect.&lt;/p&gt;</code></pre>
+</div>
+</div>
+<div class="section4">
+<div class="vertical-line">
+
+</div>
+<div class="text-box left">
+<pre><code>&lt;p&gt;This is the third text box on the left with fade-in effect.&lt;/p&gt;</code></pre>
+</div>
+<div class="text-box right">
+<pre><code>&lt;p&gt;This is the fourth text box on the right with fade-in effect.&lt;/p&gt;</code></pre>
+</div>
+</div>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const textBoxes = document.querySelectorAll('.text-box');
+
+    function handleScroll() {
+      textBoxes.forEach(textBox => {
+        const boxPosition = textBox.getBoundingClientRect().top;
+        const windowHeight = window.innerHeight;
+        const boxBottom = textBox.getBoundingClientRect().bottom;
+
+        // Trigger fade-in when the text box is within the viewport
+        if (boxPosition < windowHeight - 100 && boxBottom > 100) {
+          textBox.classList.add('show');
+          textBox.classList.remove('hide');
+        } else {
+          // Trigger fade-out when it goes out of the viewport
+          textBox.classList.add('hide');
+          textBox.classList.remove('show');
+        }
+      });
+    }
+
+    window.addEventListener('scroll', handleScroll);
+
+    // Trigger the effect immediately in case some boxes are already visible
+    handleScroll();
+  });
+</script>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
