@@ -2,4 +2,4 @@
 toc: false
 ---
 
-## This is a website about me Mari
+## This is a website about me
