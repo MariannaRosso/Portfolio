@@ -1,11 +1,14 @@
 ---
-toc: false
+format: 
+  html:
+    toc: false
 ---
 
+<br>
 
 ![](images/avatar.png){.circle-crop width=300 height=300 fig-align="center"}
 
 
 <footer>
-This website was created with <a href="https://quarto.org/" target="_blank">Quarto</a> in R by me.
+This website was created with <a href="https://quarto.org/" target="_blank">Quarto</a> in R by me, find the code <a href="https://github.com/MariannaRosso/Portfolio" target="_blank">here</a>.
 </footer>
