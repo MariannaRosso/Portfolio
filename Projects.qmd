@@ -1,9 +1,83 @@
 ---
 toc: false
+format: html
+css: styles.css
 ---
 
-## Projects
+<div class="section1">
+  <div class="vertical-line"></div>
+  <div class="text-box left">
+    This is the first text box on the left with fade-in effect.
+  </div>
+  <div class="text-box right">
+    <p>This is the second text box on the right with fade-in effect.</p>
+  </div>
+</div>
+
+
+<div class="section2">
+  <div class="vertical-line"></div>
+  <div class="text-box left">
+    <p>This is the third text box on the left with fade-in effect.</p>
+  </div>
+  <div class="text-box right">
+    <p>This is the fourth text box on the right with fade-in effect.</p>
+  </div>
+</div>
+
+<div class="section3">
+  <div class="vertical-line"></div>
+  <div class="text-box left">
+    This is the first text box on the left with fade-in effect.
+  </div>
+  <div class="text-box right">
+    <p>This is the second text box on the right with fade-in effect.</p>
+  </div>
+</div>
+
+
+<div class="section4">
+  <div class="vertical-line"></div>
+  <div class="text-box left">
+    <p>This is the third text box on the left with fade-in effect.</p>
+  </div>
+  <div class="text-box right">
+    <p>This is the fourth text box on the right with fade-in effect.</p>
+  </div>
+</div>
 
 
 
-## Outreach
+
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const textBoxes = document.querySelectorAll('.text-box');
+
+    function handleScroll() {
+      textBoxes.forEach(textBox => {
+        const boxPosition = textBox.getBoundingClientRect().top;
+        const windowHeight = window.innerHeight;
+        const boxBottom = textBox.getBoundingClientRect().bottom;
+
+        // Trigger fade-in when the text box is within the viewport
+        if (boxPosition < windowHeight - 100 && boxBottom > 100) {
+          textBox.classList.add('show');
+          textBox.classList.remove('hide');
+        } else {
+          // Trigger fade-out when it goes out of the viewport
+          textBox.classList.add('hide');
+          textBox.classList.remove('show');
+        }
+      });
+    }
+
+    window.addEventListener('scroll', handleScroll);
+
+    // Trigger the effect immediately in case some boxes are already visible
+    handleScroll();
+  });
+</script>
+
+
