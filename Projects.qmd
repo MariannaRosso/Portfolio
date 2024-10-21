@@ -44,23 +44,23 @@ css: styles.css
 
 <!-- Text -->
 <div style="position: absolute; top: 138px; left: 330px; color: white;line-height: 1.1;">
-  <p style="margin: 0; font-family: 'Archivo Narrow', sans-serif;font-size: 22px; ">2022 - current</p>
-  <p style="margin: 0; font-family: 'Crimson Pro', serif;font-size: 17px; ">Post Doctoral Researcher at the Center for Reproducible Science, University of Zürich, Switzerland (50%)</p>
+  <p style="margin: 0; font-family: 'Archivo Narrow', sans-serif;font-size: 24px; ">2022 - current</p>
+  <p style="margin: 0; font-family: 'Crimson Pro', serif;font-size: 19px; ">Post Doctoral Researcher at the STRIDE-Lab, University of Zürich, Switzerland (50%)</p>
 </div>
 <!-- End entry 1-->
 
 <!-- Sub Entry1.1: SR-SAVI-->
 <!-- Circle-->
-<div class="hover-circle" style="position: absolute; top: 245px; left: 295px; width: 12px; height: 12px; border: 2px solid #fff6f5; border-radius: 50%;" onclick="toggleInfo('info1')"></div>
+<div class="hover-circle" style="position: absolute; top: 225px; left: 295px; width: 12px; height: 12px; border: 2px solid #fff6f5; border-radius: 50%;" onclick="toggleInfo('info2')"></div>
 
 <!-- Hover Text box -->
-<div id="info1" style="position: absolute; top: 260px; left: 80px; width: 200px; padding: 10px; background-color: rgba(255, 255, 255, 0.9); color: #333; font-size: 16px; font-family: 'Archivo Narrow', sans-serif; border: 1px solid #fff6f5; border-radius: 5px; display: none;">
-  <p>Details</p>
+<div id="info2" style="position: absolute; top: 225px; left: 80px; width: 200px; padding: 10px; background-color: rgba(255, 255, 255, 0.9); color: #333; font-size: 16px; font-family: 'Crimson Pro', sans-serif; border: 1px solid #fff6f5; border-radius: 5px; display: none;">
+  <p>I was one of the main organizers of the 2-day international meeting focused on the integration of automation and AI in systematic reviews and meta-analyses, the translational research bridging animal studies to human applications and policy implementation. More info on the <a href="https://marianna-rosso-uzh.github.io/SRSAVI//" target="_blank">website</a>, which I created</p>
 </div>
 
 <!-- Text -->
-<div style="position: absolute; top: 238px; left: 330px; color: #fff6f5; line-height: 1.1;">
-  <p style="margin: 0; font-family: 'Archivo Narrow', sans-serif; font-size: 18px;">SR-SAVI Conference</p>
+<div style="position: absolute; top: 218px; left: 330px; color: #fff6f5; line-height: 1.1;">
+  <p style="margin: 0; font-family: 'Archivo Narrow', sans-serif; font-size: 18px;">SR-SAVI Conference (10.24)</p>
   <p style="margin: 0; font-family: 'Crimson Pro', serif; font-size: 15px;">Organizer and manager</p>
 </div>
 
@@ -68,33 +68,33 @@ css: styles.css
 
 <!-- Sub subentry 1.2: Bergen-->
 <!-- Circle-->
-<div class="hover-circle" style="position: absolute; top: 325px; left: 295px; width: 12px; height: 12px; border: 2px solid #fff6f5; border-radius: 50%;" onclick="toggleInfo('info1')"></div>
+<div class="hover-circle" style="position: absolute; top: 305px; left: 295px; width: 12px; height: 12px; border: 2px solid #fff6f5; border-radius: 50%;" onclick="toggleInfo('info3')"></div>
 
 <!-- Hover Text box -->
-<div id="info1" style="position: absolute; top: 340px; left: 80px; width: 200px; padding: 10px; background-color: rgba(255, 255, 255, 0.9); color: #333; font-size: 16px; font-family: 'Archivo Narrow', sans-serif; border: 1px solid #fff6f5; border-radius: 5px; display: none;">
+<div id="info3" style="position: absolute; top: 305px; left: 80px; width: 200px; padding: 10px; background-color: rgba(255, 255, 255, 0.9); color: #333; font-size: 16px; font-family: 'Crimson Pro', sans-serif; border: 1px solid #fff6f5; border-radius: 5px; display: none;">
   <p>Details</p>
 </div>
 
 <!-- Text -->
-<div style="position: absolute; top: 318px; left: 330px; color: #fff6f5; line-height: 1.1;">
- <p style="margin: 0; font-family: 'Archivo Narrow', sans-serif; font-size: 18px;">Summer School on Systematic Reviews of Animal Studies</p>
+<div style="position: absolute; top: 298px; left: 330px; color: #fff6f5; line-height: 1.1;">
+ <p style="margin: 0; font-family: 'Archivo Narrow', sans-serif; font-size: 18px;">Summer School on Systematic Reviews of Animal Studies (8.24)</p>
   <p style="margin: 0; font-family: 'Crimson Pro', serif; font-size: 15px;">in collaboration with Norecopa, Bergen, Norway, organizer and lecturer</p>
 </div>
 
 <!-- End subentry 1.2-->
 
-<!-- Sub subentry 1.3: Resedarch-->
+<!-- Sub subentry 1.3: Research-->
 <!-- Circle-->
-<div class="hover-circle" style="position: absolute; top: 405px; left: 295px; width: 12px; height: 12px; border: 2px solid #fff6f5; border-radius: 50%;" onclick="toggleInfo('info1')"></div>
+<div class="hover-circle" style="position: absolute; top: 385px; left: 295px; width: 12px; height: 12px; border: 2px solid #fff6f5; border-radius: 50%;" onclick="toggleInfo('info4')"></div>
 
 <!-- Hover Text box -->
-<div id="info1" style="position: absolute; top: 420px; left: 80px; width: 200px; padding: 10px; background-color: rgba(255, 255, 255, 0.9); color: #333; font-size: 16px; font-family: 'Archivo Narrow', sans-serif; border: 1px solid #fff6f5; border-radius: 5px; display: none;">
+<div id="info4" style="position: absolute; top: 385px; left: 80px; width: 200px; padding: 10px; background-color: rgba(255, 255, 255, 0.9); color: #333; font-size: 16px; font-family: 'Crimson Pro', sans-serif; border: 1px solid #fff6f5; border-radius: 5px; display: none;">
   <p>Details</p>
 </div>
 
 <!-- Text -->
-<div style="position: absolute; top: 398px; left: 330px; color: #fff6f5; line-height: 1.1;">
- <p style="margin: 0; font-family: 'Archivo Narrow', sans-serif; font-size: 18px;">Research focus</p>
+<div style="position: absolute; top: 378px; left: 330px; color: #fff6f5; line-height: 1.1;">
+ <p style="margin: 0; font-family: 'Archivo Narrow', sans-serif; font-size: 18px;">Research focus (23-24)</p>
   <p style="margin: 0; font-family: 'Crimson Pro', serif; font-size: 15px;">.The role of systematic reviews in informing animal welfare policies in the EU</p>
   <p style="margin: 0; font-family: 'Crimson Pro', serif; font-size: 15px;">.Surveying Swiss researchers on the awereness and use of systematic reviews in clinical and animal research</p>
 </div>
@@ -103,58 +103,66 @@ css: styles.css
 
 <!-- Sub subentry 1.4: Summer School-->
 <!-- Circle-->
-<div class="hover-circle" style="position: absolute; top: 505px; left: 295px; width: 12px; height: 12px; border: 2px solid #fff6f5; border-radius: 50%;" onclick="toggleInfo('info1')"></div>
+<div class="hover-circle" style="position: absolute; top: 475px; left: 295px; width: 12px; height: 12px; border: 2px solid #fff6f5; border-radius: 50%;" onclick="toggleInfo('info5')"></div>
 
 <!-- Hover Text box -->
-<div id="info1" style="position: absolute; top: 520px; left: 80px; width: 200px; padding: 10px; background-color: rgba(255, 255, 255, 0.9); color: #333; font-size: 16px; font-family: 'Archivo Narrow', sans-serif; border: 1px solid #fff6f5; border-radius: 5px; display: none;">
+<div id="info5" style="position: absolute; top: 475px; left: 80px; width: 200px; padding: 10px; background-color: rgba(255, 255, 255, 0.9); color: #333; font-size: 16px; font-family: 'Crimson Pro', sans-serif; border: 1px solid #fff6f5; border-radius: 5px; display: none;">
   <p>Details</p>
 </div>
 
 <!-- Text -->
-<div style="position: absolute; top: 498px; left: 330px; color: #fff6f5; line-height: 1.1;">
- <p style="margin: 0; font-family: 'Archivo Narrow', sans-serif; font-size: 18px;">Summer School on Systematic Reviews of Animal Studies</p>
+<div style="position: absolute; top: 468px; left: 330px; color: #fff6f5; line-height: 1.1;">
+ <p style="margin: 0; font-family: 'Archivo Narrow', sans-serif; font-size: 18px;">Summer School on Systematic Reviews of Animal Studies (8.23)</p>
   <p style="margin: 0; font-family: 'Crimson Pro', serif; font-size: 15px;">University of Zürich, organizer and lecturer</p>
 </div>
 
 <!-- End subentry 1.4-->
 
+<!-- Break between positions-->
+<div style="width: 13px; height: 13px; background-color: #eb6864; border-radius: 50%; position: absolute; top: 535px; left: 295px;"></div>
+
+<!-- Entry2: USZ-->
+<!-- Circle-->
+<div class="hover-circle" style="position: absolute; top: 575px; left: 292px; width: 18px; height: 18px; border: 2px solid #fff6f5; border-radius: 50%;" onclick="toggleInfo('info6')"></div>
+
+<!-- Hover Text box -->
+<div id="info6" style="position: absolute; top: 575px; left: 80px; width: 200px; padding: 10px; background-color: rgba(255, 255, 255, 0.9); color: #333; font-size: 16px; font-family: 'Crimson Pro', sans-serif; border: 1px solid #fff6f5; border-radius: 5px; display: none;">
+  <p>Details</p>
+</div>
+
+<!-- Text -->
+<div style="position: absolute; top: 568px; left: 330px; color: white;line-height: 1.1;">
+  <p style="margin: 0; font-family: 'Archivo Narrow', sans-serif;font-size: 24px; ">More to come</p>
+  <p style="margin: 0; font-family: 'Crimson Pro', serif;font-size: 19px; ">soon...</p>
+</div>
+<!-- End entry 1-->
+
 
 <script>
-  // Function to toggle the text box visibility and change the circle color when clicked
   function toggleInfo(infoId, circleId) {
     var infoBox = document.getElementById(infoId);
     var circle = document.getElementById(circleId);
 
-    // Toggle text box visibility
-    if (infoBox.style.display === "none" || infoBox.style.display === "") {
-      infoBox.style.display = "block";
-      // Change circle color to indicate it's clicked
-      circle.classList.add('clicked');
-    } else {
-      infoBox.style.display = "none";
-      // Remove the clicked class when hiding the info box
+    // Check if the clicked info box is already open
+    var isCurrentlyOpen = (infoBox.style.display === "block");
+
+    // Close all open text boxes
+    var openInfoBoxes = document.querySelectorAll('div[id^="info"]');
+    var circles = document.querySelectorAll('.hover-circle');
+
+    openInfoBoxes.forEach(function(box) {
+      box.style.display = 'none';
+    });
+
+    // Remove 'clicked' class from all circles
+    circles.forEach(function(circle) {
       circle.classList.remove('clicked');
+    });
+
+    // If the clicked text box is not open, open it
+    if (!isCurrentlyOpen) {
+      infoBox.style.display = "block";
+      circle.classList.add('clicked');
     }
   }
-
-  // Hide the text box and reset circle color when clicking outside
-  document.addEventListener('click', function(event) {
-    var circle = document.getElementById('circle1');
-    var infoBox = document.getElementById('info1');
-
-    // Ensure we are not triggering the hide when clicking on the circle or info box itself
-    if (!circle.contains(event.target) && !infoBox.contains(event.target)) {
-      infoBox.style.display = 'none';  // Hide the info box
-      circle.classList.remove('clicked');  // Reset the circle color
-    }
-  });
-
-  // Prevent event bubbling when clicking on the circle or info box
-  document.getElementById('circle1').addEventListener('click', function(event) {
-    event.stopPropagation();
-  });
-
-  document.getElementById('info1').addEventListener('click', function(event) {
-    event.stopPropagation();
-  });
 </script>

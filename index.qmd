@@ -40,4 +40,4 @@ format:
 
 </div>
 
-<footer>This website was created with <a href="https://quarto.org/" target="_blank">Quarto</a> in R by me, find the code <a href="https://github.com/MariannaRosso/Portfolio" target="_blank">here</a>.</footer>
+<footer>This website was created with <a href="https://quarto.org/" target="_blank">Quarto</a> in R by me, find the open-source code <a href="https://github.com/MariannaRosso/Portfolio" target="_blank">here</a>.</footer>

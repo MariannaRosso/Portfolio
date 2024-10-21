@@ -7,7 +7,15 @@ format:
 
 ## Graphics
 
-A selection of visualizations or infographics I have created for work, or for fun.
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Great+Vibes:wght@400;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200;700&display=swap');
+</style> 
+
+<div style="display: flex; font-family: 'Crimson Pro', sans-serif;font-size: 19px; line-height: 1.1;">
+  A selection of visualizations or infographics I have created for work, or for fun. All the graphics were created with R and Inkscape.
+</div>
 
 <div style="display: flex; flex-direction: column; align-items: center; gap: 20px;">
 
@@ -54,4 +62,4 @@ A selection of visualizations or infographics I have created for work, or for fu
 </div>
 
 
-<footer>All graphics were created with R and Inkscape. <a href="mailto:marianna.rosso@uzh.ch" target="_blank">Contact me</a> if you're interested in knowing more.</footer>
+<footer><a href="mailto:marianna.rosso@uzh.ch" target="_blank">Contact me</a> if you're interested in knowing more.</footer>

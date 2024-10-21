@@ -10,7 +10,7 @@ website:
       - href: index.qmd
         text: Welcome
       - href: Projects.qmd
-        text: Projects
+        text: CV
       - href: Graphics.qmd
         text: Graphics
       - href: Publications.qmd
