@@ -4,80 +4,71 @@ format: html
 css: styles.css
 ---
 
-<div class="section1">
-  <div class="vertical-line"></div>
-  <div class="text-box left">
-    This is the first text box on the left with fade-in effect.
-  </div>
-  <div class="text-box right">
-    <p>This is the second text box on the right with fade-in effect.</p>
-  </div>
+<style>
+  body {
+    background-color: #eb6864;
+  }
+</style>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;700&display=swap');
+</style>
+
+<div class="vertical-line" style="border-left: 2px solid #fff6f5; height: 100vh; position: fixed; left: 300px; top: 0;"></div>
+
+
+<!-- Entry1 -->
+<!-- Circle-->
+<div class="hover-circle" style="position: absolute; top: 116px; left: 293.5px; width: 15px; height: 15px; border: 2px solid #fff6f5; border-radius: 50%;" onclick="toggleInfo('info1')"></div>
+
+<!-- Text box -->
+<div id="info1" style="position: absolute; top: 100px; left: 80px; width: 200px; padding: 10px; background-color: rgba(255, 255, 255, 0.9); color: #333; font-size: 16px; font-family: 'Archivo Narrow', sans-serif; border: 1px solid #fff6f5; border-radius: 5px; display: none;">
+  <p>More details about the 2018 Internship</p>
 </div>
 
-
-<div class="section2">
-  <div class="vertical-line"></div>
-  <div class="text-box left">
-    <p>This is the third text box on the left with fade-in effect.</p>
-  </div>
-  <div class="text-box right">
-    <p>This is the fourth text box on the right with fade-in effect.</p>
-  </div>
+<!-- Text -->
+<div style="position: absolute; top: 110px; left: 330px; font-size: 18px; color: #fff6f5;font-family: 'Archivo Narrow', sans-serif;">
+  <p>2018 Internship</p>
 </div>
-
-<div class="section3">
-  <div class="vertical-line"></div>
-  <div class="text-box left">
-    This is the first text box on the left with fade-in effect.
-  </div>
-  <div class="text-box right">
-    <p>This is the second text box on the right with fade-in effect.</p>
-  </div>
-</div>
-
-
-<div class="section4">
-  <div class="vertical-line"></div>
-  <div class="text-box left">
-    <p>This is the third text box on the left with fade-in effect.</p>
-  </div>
-  <div class="text-box right">
-    <p>This is the fourth text box on the right with fade-in effect.</p>
-  </div>
-</div>
-
-
-
 
 
 
 <script>
-  document.addEventListener("DOMContentLoaded", function() {
-    const textBoxes = document.querySelectorAll('.text-box');
+  // Function to toggle the text box visibility and change the circle color when clicked
+  function toggleInfo(infoId, circleId) {
+    var infoBox = document.getElementById(infoId);
+    var circle = document.getElementById(circleId);
 
-    function handleScroll() {
-      textBoxes.forEach(textBox => {
-        const boxPosition = textBox.getBoundingClientRect().top;
-        const windowHeight = window.innerHeight;
-        const boxBottom = textBox.getBoundingClientRect().bottom;
-
-        // Trigger fade-in when the text box is within the viewport
-        if (boxPosition < windowHeight - 100 && boxBottom > 100) {
-          textBox.classList.add('show');
-          textBox.classList.remove('hide');
-        } else {
-          // Trigger fade-out when it goes out of the viewport
-          textBox.classList.add('hide');
-          textBox.classList.remove('show');
-        }
-      });
+    // Toggle text box visibility
+    if (infoBox.style.display === "none" || infoBox.style.display === "") {
+      infoBox.style.display = "block";
+      // Change circle color to indicate it's clicked
+      circle.classList.add('clicked');
+    } else {
+      infoBox.style.display = "none";
+      // Remove the clicked class when hiding the info box
+      circle.classList.remove('clicked');
     }
+  }
 
-    window.addEventListener('scroll', handleScroll);
+  // Hide the text box and reset circle color when clicking outside
+  document.addEventListener('click', function(event) {
+    var circle = document.getElementById('circle1');
+    var infoBox = document.getElementById('info1');
 
-    // Trigger the effect immediately in case some boxes are already visible
-    handleScroll();
+    // Ensure we are not triggering the hide when clicking on the circle or info box itself
+    if (!circle.contains(event.target) && !infoBox.contains(event.target)) {
+      infoBox.style.display = 'none';  // Hide the info box
+      circle.classList.remove('clicked');  // Reset the circle color
+    }
+  });
+
+  // Prevent event bubbling when clicking on the circle or info box
+  document.getElementById('circle1').addEventListener('click', function(event) {
+    event.stopPropagation();
+  });
+
+  document.getElementById('info1').addEventListener('click', function(event) {
+    event.stopPropagation();
   });
 </script>
-
-
