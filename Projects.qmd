@@ -12,24 +12,102 @@ css: styles.css
 
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;700&display=swap');
-</style>
+  @import url('https://fonts.googleapis.com/css2?family=Great+Vibes:wght@400;700&display=swap');
+</style> 
 
 <div class="vertical-line" style="border-left: 2px solid #fff6f5; height: 100vh; position: fixed; left: 300px; top: 0;"></div>
 
 
-<!-- Entry1 -->
-<!-- Circle-->
-<div class="hover-circle" style="position: absolute; top: 116px; left: 293.5px; width: 15px; height: 15px; border: 2px solid #fff6f5; border-radius: 50%;" onclick="toggleInfo('info1')"></div>
+<!-- Curved arrow -->
+<svg width="400" height="400" style="position: absolute; top: 105px; left: 120px;">
+  <!-- Path for curved arrow -->
+  <path d="M 4 1 C 25 27 92 1 88 32 C 74 61 30 14 74 7 C 99 4 121 69 160 50 M 160 50 L 154.8 57.3 M 160 50 L 152 47"  
+        stroke="#fcb1aa" stroke-width="1" fill="none" />
+</svg>
 
-<!-- Text box -->
-<div id="info1" style="position: absolute; top: 100px; left: 80px; width: 200px; padding: 10px; background-color: rgba(255, 255, 255, 0.9); color: #333; font-size: 16px; font-family: 'Archivo Narrow', sans-serif; border: 1px solid #fff6f5; border-radius: 5px; display: none;">
-  <p>More details about the 2018 Internship</p>
+<div style="position: absolute; top: 85px; left: 70px; font-size: 15px; color: #ffd3cf;font-family: 'Great Vibes', sans-serif;">
+  <p>Click for more info!</p>
+</div>
+
+<!-- Entry1 Section to repeat per field-->
+<!-- Circle-->
+<div class="hover-circle" style="position: absolute; top: 145px; left: 293.5px; width: 15px; height: 15px; border: 2px solid #fff6f5; border-radius: 50%;" onclick="toggleInfo('info1')"></div>
+
+<!-- Hover Text box -->
+<div id="info1" style="position: absolute; top: 170px; left: 80px; width: 200px; padding: 10px; background-color: rgba(255, 255, 255, 0.9); color: #333; font-size: 16px; font-family: 'Archivo Narrow', sans-serif; border: 1px solid #fff6f5; border-radius: 5px; display: none;">
+  <p>Details</p>
 </div>
 
 <!-- Text -->
-<div style="position: absolute; top: 110px; left: 330px; font-size: 18px; color: #fff6f5;font-family: 'Archivo Narrow', sans-serif;">
-  <p>2018 Internship</p>
+<div style="position: absolute; top: 138px; left: 330px; font-size: 18px; color: #fff6f5;font-family: 'Archivo Narrow', sans-serif;">
+  <p>2022 - current: Post Doctoral Researcher</p>
 </div>
+
+<!-- End entry 1-->
+
+<!-- Entry2 Section to repeat per field-->
+<!-- Circle-->
+<div class="hover-circle" style="position: absolute; top: 245px; left: 293.5px; width: 15px; height: 15px; border: 2px solid #fff6f5; border-radius: 50%;" onclick="toggleInfo('info1')"></div>
+
+<!-- Hover Text box -->
+<div id="info1" style="position: absolute; top: 270px; left: 80px; width: 200px; padding: 10px; background-color: rgba(255, 255, 255, 0.9); color: #333; font-size: 16px; font-family: 'Archivo Narrow', sans-serif; border: 1px solid #fff6f5; border-radius: 5px; display: none;">
+  <p>Details</p>
+</div>
+
+<!-- Text -->
+<div style="position: absolute; top: 238px; left: 330px; font-size: 18px; color: #fff6f5;font-family: 'Archivo Narrow', sans-serif;">
+  <p>2023 - current: Statistical Analyst and Project Manager</p>
+</div>
+
+<!-- End entry 2-->
+
+<!-- Entry3 Section to repeat per field-->
+<!-- Circle-->
+<div class="hover-circle" style="position: absolute; top: 345px; left: 293.5px; width: 15px; height: 15px; border: 2px solid #fff6f5; border-radius: 50%;" onclick="toggleInfo('info1')"></div>
+
+<!-- Hover Text box -->
+<div id="info1" style="position: absolute; top: 370px; left: 80px; width: 200px; padding: 10px; background-color: rgba(255, 255, 255, 0.9); color: #333; font-size: 16px; font-family: 'Archivo Narrow', sans-serif; border: 1px solid #fff6f5; border-radius: 5px; display: none;">
+  <p>Details</p>
+</div>
+
+<!-- Text -->
+<div style="position: absolute; top: 338px; left: 330px; font-size: 18px; color: #fff6f5;font-family: 'Archivo Narrow', sans-serif;">
+  <p>2021 - current: Data and Graphics Freelancer</p>
+</div>
+
+<!-- End entry 3-->
+
+<!-- Entry4 Section to repeat per field-->
+<!-- Circle-->
+<div class="hover-circle" style="position: absolute; top: 445px; left: 293.5px; width: 15px; height: 15px; border: 2px solid #fff6f5; border-radius: 50%;" onclick="toggleInfo('info1')"></div>
+
+<!-- Hover Text box -->
+<div id="info1" style="position: absolute; top: 470px; left: 80px; width: 200px; padding: 10px; background-color: rgba(255, 255, 255, 0.9); color: #333; font-size: 16px; font-family: 'Archivo Narrow', sans-serif; border: 1px solid #fff6f5; border-radius: 5px; display: none;">
+  <p>Details</p>
+</div>
+
+<!-- Text -->
+<div style="position: absolute; top: 438px; left: 330px; font-size: 18px; color: #fff6f5;font-family: 'Archivo Narrow', sans-serif;">
+  <p>2021 - 2023: Core Team Swiss Reproducibility Network Academy and Social Media Manager</p>
+</div>
+
+<!-- End entry 4-->
+
+<!-- Entry5 Section to repeat per field-->
+<!-- Circle-->
+<div class="hover-circle" style="position: absolute; top: 545px; left: 293.5px; width: 15px; height: 15px; border: 2px solid #fff6f5; border-radius: 50%;" onclick="toggleInfo('info1')"></div>
+
+<!-- Hover Text box -->
+<div id="info1" style="position: absolute; top: 570px; left: 80px; width: 200px; padding: 10px; background-color: rgba(255, 255, 255, 0.9); color: #333; font-size: 16px; font-family: 'Archivo Narrow', sans-serif; border: 1px solid #fff6f5; border-radius: 5px; display: none;">
+  <p>Details</p>
+</div>
+
+<!-- Text -->
+<div style="position: absolute; top: 538px; left: 330px; font-size: 18px; color: #fff6f5;font-family: 'Archivo Narrow', sans-serif;">
+  <p>2018 - 2021: PhD Candidate in Biomedical Science</p>
+</div>
+
+<!-- End entry 5-->
 
 
 
