@@ -39,75 +39,27 @@ h1, h2, h3, h4, h5, h6 {
   color: #1f1f1f; /* Or specify a different color like #000000 or blue */
 }
 
-/* General vertical line settings */
-.vertical-line {
-  width: 15px;
-  height: 100%; /* Stretch the line across the section height */
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  border-radius: 50px;
+/* Container for each section */
+.section {
+  display: flex;
+  justify-content: flex-start; /* Align content to the left */
+  align-items: flex-start;
+  margin-bottom: 50px; /* Add space between sections */
+  position: relative; /* Relative position for vertical line positioning */
 }
 
-/* Specific colors for each section */
-.section1 .vertical-line {
-  background-color: #fdb5ae; /* Coral Pink */
+/* Base circle styles */
+.hover-circle {
+  background-color: #eb6864; /* Default fill color before hovering */
+  transition: background-color 0.3s ease; /* Smooth transition */
 }
 
-.section2 .vertical-line {
-  background-color: #afc6f1; /* Blue */
+/* Change the fill color of the circle on hover */
+.hover-circle:hover {
+  background-color: white; /* Green color when hovered */
 }
 
-.section3 .vertical-line {
-  background-color: #aabca8; /* Sage Green */
-}
-
-.section4 .vertical-line {
-  background-color: #b4b5b7; /* Grey */
-}
-
-/* Ensure each section has enough height */
-.section1, .section2, .section3, .section4 {
-  position: relative;
-  min-height: 100vh; /* Full viewport height */
-  margin-top: 5px; /* Add space between sections */
-}
-
-
-.text-box {
-  opacity: 0; /* Initially hidden */
-  transform: translateY(20px); /* Slightly shifted down */
-  transition: opacity 1.2s ease-out, transform 1.2s ease-out; /* Slower transition (1.2s) */
-  background-color: #fbfbfb; /* Light background for visibility */
-  border: 2px solid #f4f4f4;
-  padding: 20px; /* Add padding for better layout */
-  width: 45%; /* Set width of the text boxes to 35% for better wrapping */
-  margin: 10px; /* Add margin for spacing */
-  border-radius: 2px; /* Rounded corners */
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
-  word-wrap: break-word; /* Ensures long words wrap inside the box */
-}
-
-
-.text-box.show {
-  opacity: 1; /* Fully visible */
-  transform: translateY(0); /* Back to original position */
-}
-
-.text-box.hide {
-  opacity: 0; /* Fade-out effect */
-  transform: translateY(20px); /* Move slightly down again */
-}
-
-
-.left {
-  float: left;
-  clear: both;
-  margin-right: 60%;
-}
-
-.right {
-  float: right;
-  clear: both;
-  margin-left: 60%;
+/* Change the fill color of the circle when clicked using a 'clicked' class */
+.clicked {
+  background-color: #4a90e2; /* Blue color when clicked */
 }
