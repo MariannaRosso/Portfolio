@@ -11,6 +11,13 @@ toc: false
 </style> 
 
 <div style="display: flex; font-family: 'Crimson Pro', sans-serif; font-size: 19px; line-height: 1.1;">
+  Berg I, Härvelid P, Zürrer WE, <strong style="color:#eb6864;">Rosso M</strong>, Reich DS, Ineichen BV (2024) "Which experimental factors govern successful animal-to-human translation in multiple sclerosis drug development? A systematic review and meta-analysis." 
+  *eBioMedicine* <a href="https://www.sciencedirect.com/science/article/pii/S2352396424004705#fig1" target="_blank">DOI</a>
+</div>
+
+![](images/pub/ExpFactors.jpg){fig-align="center" width="350"}
+
+<div style="display: flex; font-family: 'Crimson Pro', sans-serif; font-size: 19px; line-height: 1.1;">
   <strong style="color:#eb6864;">Rosso M</strong>, Doneva S, Howells D, Leenaars CHC, Ineichen BV (2024) "Summer school for systematic reviews of animal studies: Fostering evidence-based and rigorous animal research." 
   *ALTEX - Alternatives to animal experimentation* <a href="https://www.altex.org/index.php/altex/article/view/2717" target="_blank">DOI</a>
 </div>
