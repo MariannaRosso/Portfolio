@@ -10,6 +10,15 @@ toc: false
   @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200;700&display=swap');
 </style> 
 
+
+<div style="display: flex; font-family: 'Crimson Pro', sans-serif; font-size: 19px; line-height: 1.1;">
+  Hild BF, Brüschweiler D, Hild STK, Bugajska J, von Wyl V, <strong style="color:#eb6864;">Rosso M</strong>, Wever KE, Furrer E, Ineichen BV (2024) "Quality, topics, and demographic trends of animal systematic reviews - an umbrella review." 
+  *Journal of Translational Medicine* <a href="https://translational-medicine.biomedcentral.com/" target="_blank">In print</a>
+</div>
+
+![](images/pub/Umbrella.png){fig-align="center" width="350"}
+
+
 <div style="display: flex; font-family: 'Crimson Pro', sans-serif; font-size: 19px; line-height: 1.1;">
   Berg I, Härvelid P, Zürrer WE, <strong style="color:#eb6864;">Rosso M</strong>, Reich DS, Ineichen BV (2024) "Which experimental factors govern successful animal-to-human translation in multiple sclerosis drug development? A systematic review and meta-analysis." 
   *eBioMedicine* <a href="https://www.sciencedirect.com/science/article/pii/S2352396424004705#fig1" target="_blank">DOI</a>
