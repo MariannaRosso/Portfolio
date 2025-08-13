@@ -19,9 +19,9 @@ format:
 
 <div style="display: flex; flex-direction: column; align-items: center; gap: 20px;">
 
-<div>
-  <img src="Visualizations/animal_use.png" alt="Animal Use" style="width: 100%;">
-</div>
+<iframe src="Visualizations/infographic_3RCC.pdf#toolbar=0&navpanes=0&scrollbar=0" 
+        width="100%" height="450px" style="border:none;">
+</iframe>
 
 <div>
   <img src="Visualizations/chapter1.png" alt="Chapter 1" style="width: 100%;">
@@ -45,10 +45,6 @@ format:
 
 <div>
   <img src="Visualizations/Picture1.png" alt="Picture 1" style="width: 100%;">
-</div>
-
-<div>
-  <img src="Visualizations/Screenshot.png" alt="Screenshot" style="width: 100%;">
 </div>
 
 <div>
