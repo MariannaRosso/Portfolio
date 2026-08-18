@@ -1,65 +1,90 @@
-/* Ensure the body takes up the full height and width */
-body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  width: 100%;
-}
-
-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  text-align: center;
-  background-color: #f1f1f1; /* Optional: add a background color */
-  padding: 10px;
-  font-size: 12px;
-  color: #333;
-  border-top: 1px solid #ddd; /* Optional: a line above the footer */
-}
-
 .circle-crop {
-  border-radius: 50%; /* Makes the image circular */
-  object-fit: cover;  /* Ensures the image is scaled to cover the area */
+  border-radius: 50%;
+  object-fit: cover;
   display: block;
-  margin: auto; /* Centers the image */
+  margin: auto;
+  filter: grayscale(100%) brightness(1.15);
+  transition: filter 0.4s ease;
+  transform: translateX(-100px) translateY(0px); /* negative = left, positive = right; adjust value */
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;700&display=swap');
+.circle-crop:hover {
+  filter: grayscale(0%) brightness(1);
+}
 
 /* Apply custom font and color to body text */
 body {
-  font-family: 'Gothic A1', sans-serif;
+  font-family: 'Dosis', sans-serif;
   color: #404040; /* Dark gray for all text */
 }
 
 /* Keep the headings (titles) unchanged or specify a different color */
 h1, h2, h3, h4, h5, h6 {
   color: #1f1f1f; /* Or specify a different color like #000000 or blue */
+  font-family: "Dosis", serif;
 }
 
-/* Container for each section */
-.section {
+html {
+  scroll-behavior: smooth;
+}
+
+h2 {
+  scroll-margin-top: 100px; /* adjust if a sticky header covers the heading */
+}
+
+#quarto-sidebar {
+  width: 650px !important;
+  flex: 0 0 350px !important;
   display: flex;
-  justify-content: flex-start; /* Align content to the left */
-  align-items: flex-start;
-  margin-bottom: 50px; /* Add space between sections */
-  position: relative; /* Relative position for vertical line positioning */
+  flex-direction: column;
+  justify-content: center;
+  min-height: 50vh;
+  text-align: right;
+  font-family: "Dosis", serif;
+  background-color: #efeeec;
 }
 
-/* Base circle styles */
-.hover-circle {
-  background-color: #eb6864; /* Default fill color before hovering */
-  transition: background-color 0.3s ease; /* Smooth transition */
+#quarto-sidebar .sidebar-item:first-child {
+  margin-top: -200px; /* pulls the whole block up; positive value pushes down */
 }
 
-/* Change the fill color of the circle on hover */
-.hover-circle:hover {
-  background-color: white; /* Green color when hovered */
+#quarto-sidebar .sidebar-item {
+  margin-bottom: 30px; /* space between items */
 }
 
-/* Change the fill color of the circle when clicked using a 'clicked' class */
-.clicked {
-  background-color: #4a90e2; /* Blue color when clicked */
+#quarto-sidebar .sidebar-item-text,
+#quarto-sidebar a {
+  font-family: inherit;
+  color: #666362;
+  font-family: "Dosis"; /* swap for whatever font you want */
+  font-size: 22px;
+  
+}
+
+
+
+#quarto-document-content {
+  margin-left: 430px !important;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.cv-location {
+  font-size: 14px;
+  color: #888;
+  font-weight: 300;
+}
+
+.social-btn {
+  padding: 3px 7px;
+  background-color: transparent;
+  color: #666362;
+  border: none;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.social-btn:hover {
+  background-color: transparent;
+  color: #eb6864; /* slightly darker on hover instead of a filled background, since there's no border now */
 }
