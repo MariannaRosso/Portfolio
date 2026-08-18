@@ -13,27 +13,58 @@ format:
 
 ## Short CV {#cv}
 
-### Positions
+#### Positions
 
-Jun 2023 - May 2026, Data Scientist & Project Manager  
+Oct 2025 - ongoing, **Occasional Home-baker**  
+<span class="cv-location">Zurich, Switzerland</span>
+
+Jun 2023 - May 2026, **Data Scientist & Project Manager**  
 <span class="cv-location">University Hospital Zurich, Switzerland</span>
 
-Nov 2022 - Dec 2025, Postdoctoral Researcher  
+Nov 2022 - Dec 2025, **Postdoctoral Researcher**  
 <span class="cv-location">Center for Reproducible Science, University of Zurich, Switzerland</span>
 
-Mar 2021 - Jan 2025, Freelancer Data Scientist & Lecturer  
+Mar 2021 - Jan 2025, **Freelancer Data Scientist & Lecturer**  
 <span class="cv-location">Switzerland</span>
 
-Dec 2018 - Jun 2022, PhD Researcher  
+Dec 2018 - Jun 2022, **PhD Researcher**  
 <span class="cv-location">Veterinary Public Health Institute, University of Bern, Switzerland</span>
 
-### Education
+Dec 2017 - March 2018, **Pastry chef**  
+<span class="cv-location">Pasticceria Monti, Torino, Italy</span>
+
+#### Education
 
 Feb 2016 - Sep 2018, Master's degree in Ecology and Evolution  
 <span class="cv-location">University of Bern, Switzerland</span>
 
+Aug 2017 - Dec 2017, Pastry chef certification  
+<span class="cv-location">Torino, Italy</span>
+
 Oct 2011 - Oct 2015, Bachelor's degree in Biology  
 <span class="cv-location">Università degli studi di Torino, Italy</span>
+
+[Download my full CV here](files/CV.pdf)
+
+## Projects {#projects}
+
+#### Events (co-)organized by me
+
+- Winter school on systematic reviews of animal studies. [link](https://www.crs.uzh.ch/en/news/2026-News/Winter-School-on-Evidence-Synthesis.html)  
+<span class="cv-location">Feb 2026: Zurich</span>
+
+- International SR-SAVI Conference on systematic review of animal and in-vitro studies. [link](https://marianna-rosso-uzh.github.io/SRSAVI/)
+<span class="cv-location">Nov 2024: Zurich</span>
+
+- Summer school on systematic reviews of animal studies. [link](https://norecopa.no/summer-school-on-systematic-reviews-of-animal-studies/)  
+<span class="cv-location">Aug 2023: Zurich CH, Aug 2024: Bergen NO</span>
+
+- R Bootcamp and Bring-your-own-data (BYOD) Workshop [link](https://www.wbkolleg.unibe.ch/unibe/portal/fak_historisch/fsuf/content/e171913/e1032545/e1346018/pane1177208/e1286593/10-2022_ger.pdf)  
+<span class="cv-location">Nov 2022: Bern, Switzerland</span>
+
+#### Web design
+
+- [My home bakery](https://www.flakypieshop.com/)  
 
 ## Publications {#publications}
 

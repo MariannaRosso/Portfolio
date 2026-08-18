@@ -110,6 +110,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./index.html#projects" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Projects</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./index.html#publications" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Publications</span></a>
   </div>
@@ -134,23 +140,51 @@ ul.task-list li input[type="checkbox"] {
 <p><a href="https://www.linkedin.com/in/marianna-rosso-625022160/" target="_blank" style="text-decoration: none;"> <button class="social-btn"><i class="fa-brands fa-linkedin"></i></button> </a> <a href="https://github.com/marianna-rosso-uzh/" target="_blank" style="text-decoration: none;"> <button class="social-btn"><i class="fa-brands fa-github"></i></button> </a> <a href="https://stride-lab.pages.uzh.ch/website/people/rosso-marianna/" style="text-decoration: none;"> <button class="social-btn"><i class="fa-solid fa-briefcase"></i></button> </a> <a href="mailto:marianna.rosso@uzh.ch" style="text-decoration: none;"> <button class="social-btn"><i class="fa-solid fa-envelope"></i></button> </a></p>
 <section id="cv" class="level2">
 <h2 class="anchored" data-anchor-id="cv">Short CV</h2>
-<section id="positions" class="level3">
-<h3 class="anchored" data-anchor-id="positions">Positions</h3>
-<p>Jun 2023 - May 2026, Data Scientist &amp; Project Manager<br>
+<section id="positions" class="level4">
+<h4 class="anchored" data-anchor-id="positions">Positions</h4>
+<p>Oct 2025 - ongoing, <strong>Occasional Home-baker</strong><br>
+<span class="cv-location">Zurich, Switzerland</span></p>
+<p>Jun 2023 - May 2026, <strong>Data Scientist &amp; Project Manager</strong><br>
 <span class="cv-location">University Hospital Zurich, Switzerland</span></p>
-<p>Nov 2022 - Dec 2025, Postdoctoral Researcher<br>
+<p>Nov 2022 - Dec 2025, <strong>Postdoctoral Researcher</strong><br>
 <span class="cv-location">Center for Reproducible Science, University of Zurich, Switzerland</span></p>
-<p>Mar 2021 - Jan 2025, Freelancer Data Scientist &amp; Lecturer<br>
+<p>Mar 2021 - Jan 2025, <strong>Freelancer Data Scientist &amp; Lecturer</strong><br>
 <span class="cv-location">Switzerland</span></p>
-<p>Dec 2018 - Jun 2022, PhD Researcher<br>
+<p>Dec 2018 - Jun 2022, <strong>PhD Researcher</strong><br>
 <span class="cv-location">Veterinary Public Health Institute, University of Bern, Switzerland</span></p>
+<p>Dec 2017 - March 2018, <strong>Pastry chef</strong><br>
+<span class="cv-location">Pasticceria Monti, Torino, Italy</span></p>
 </section>
-<section id="education" class="level3">
-<h3 class="anchored" data-anchor-id="education">Education</h3>
+<section id="education" class="level4">
+<h4 class="anchored" data-anchor-id="education">Education</h4>
 <p>Feb 2016 - Sep 2018, Master’s degree in Ecology and Evolution<br>
 <span class="cv-location">University of Bern, Switzerland</span></p>
+<p>Aug 2017 - Dec 2017, Pastry chef certification<br>
+<span class="cv-location">Torino, Italy</span></p>
 <p>Oct 2011 - Oct 2015, Bachelor’s degree in Biology<br>
 <span class="cv-location">Università degli studi di Torino, Italy</span></p>
+<p><a href="files/CV.pdf">Download my full CV here</a></p>
+</section>
+</section>
+<section id="projects" class="level2">
+<h2 class="anchored" data-anchor-id="projects">Projects</h2>
+<section id="events-co-organized-by-me" class="level4">
+<h4 class="anchored" data-anchor-id="events-co-organized-by-me">Events (co-)organized by me</h4>
+<ul>
+<li><p>Winter school on systematic reviews of animal studies. <a href="https://www.crs.uzh.ch/en/news/2026-News/Winter-School-on-Evidence-Synthesis.html">link</a><br>
+<span class="cv-location">Feb 2026: Zurich</span></p></li>
+<li><p>International SR-SAVI Conference on systematic review of animal and in-vitro studies. <a href="https://marianna-rosso-uzh.github.io/SRSAVI/">link</a> <span class="cv-location">Nov 2024: Zurich</span></p></li>
+<li><p>Summer school on systematic reviews of animal studies. <a href="https://norecopa.no/summer-school-on-systematic-reviews-of-animal-studies/">link</a><br>
+<span class="cv-location">Aug 2023: Zurich CH, Aug 2024: Bergen NO</span></p></li>
+<li><p>R Bootcamp and Bring-your-own-data (BYOD) Workshop <a href="https://www.wbkolleg.unibe.ch/unibe/portal/fak_historisch/fsuf/content/e171913/e1032545/e1346018/pane1177208/e1286593/10-2022_ger.pdf">link</a><br>
+<span class="cv-location">Nov 2022: Bern, Switzerland</span></p></li>
+</ul>
+</section>
+<section id="web-design" class="level4">
+<h4 class="anchored" data-anchor-id="web-design">Web design</h4>
+<ul>
+<li><a href="https://www.flakypieshop.com/">My home bakery</a></li>
+</ul>
 </section>
 </section>
 <section id="publications" class="level2">
@@ -282,6 +316,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         if (link.dataset.originalHref !== undefined) {
           link.href = link.dataset.originalHref;
         }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
       }
     }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

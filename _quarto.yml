@@ -11,11 +11,14 @@ website:
         text: Welcome
       - href: index.qmd#cv
         text: Short CV
+      - href: index.qmd#projects
+        text: Projects
       - href: index.qmd#publications
         text: Publications
 
 format:
   html:
+    link-external-newwindow: true
     theme: journal
     css: styles.css
     toc: true
