@@ -4,40 +4,66 @@ format:
     toc: false
 ---
 
-<br>
+![](images/avatar.png){.circle-crop width="300" height="300" fig-align="left"}
 
-![](images/avatar.png){.circle-crop width="300" height="300" fig-align="center"}
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;700&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200;700&display=swap');
-</style> 
 
-<div style="display: flex; justify-content: center; align-items: center; text-align: center;">
-  <h1>Marianna Rosso, PhD</h1>
-</div>
 
-<div style="display: flex; justify-content: center; align-items: center; text-align: center;font-family: 'Crimson Pro', sans-serif;font-size: 15px;">
-  Welcome to my webpage, here you can find an overview of my professional endevors over the years. Get in touch!
-</div>
+<a href="https://www.linkedin.com/in/marianna-rosso-625022160/" target="_blank" style="text-decoration: none;"> <button class="social-btn"><i class="fa-brands fa-linkedin"></i></button> </a> <a href="https://github.com/marianna-rosso-uzh/" target="_blank" style="text-decoration: none;"> <button class="social-btn"><i class="fa-brands fa-github"></i></button> </a> <a href="https://stride-lab.pages.uzh.ch/website/people/rosso-marianna/" style="text-decoration: none;"> <button class="social-btn"><i class="fa-solid fa-briefcase"></i></button> </a> <a href="mailto:marianna.rosso@uzh.ch" style="text-decoration: none;"> <button class="social-btn"><i class="fa-solid fa-envelope"></i></button> </a>
 
-<div style="display: flex; justify-content: center; gap: 10px;">
 
-  <a href="https://www.linkedin.com/in/marianna-rosso-625022160/" target="_blank" style="text-decoration: none;">
-    <button style="padding: 3px 7px; background-color: transparent; color: #db615e; border: 1px solid #db615e; border-radius: 3px; font-size: 12px;">LinkedIn</button>
-  </a>
+## Short CV {#cv}
 
-  <a href="https://github.com/marianna-rosso-uzh/" target="_blank" style="text-decoration: none;">
-    <button style="padding: 3px 7px; background-color: transparent; color: #db615e; border: 1px solid #db615e; border-radius: 3px; font-size: 12px;">GitHub</button>
-  </a>
+### Positions
 
-  <a href="https://stride-lab.pages.uzh.ch/website/people/rosso-marianna/" style="text-decoration: none;">
-    <button style="padding: 3px 7px; background-color: transparent; color: #db615e; border: 1px solid #db615e; border-radius: 3px; font-size: 12px;">Work</button>
-  </a>
+Jun 2023 - May 2026, Data Scientist & Project Manager  
+<span class="cv-location">University Hospital Zurich, Switzerland</span>
 
-  <a href="mailto:marianna.rosso@uzh.ch" style="text-decoration: none;">
-    <button style="padding: 3px 7px; background-color: transparent; color: #db615e; border: 1px solid #db615e; border-radius: 3px; font-size: 12px;">Email</button>
-  </a>
+Nov 2022 - Dec 2025, Postdoctoral Researcher  
+<span class="cv-location">Center for Reproducible Science, University of Zurich, Switzerland</span>
 
-</div>
+Mar 2021 - Jan 2025, Freelancer Data Scientist & Lecturer  
+<span class="cv-location">Switzerland</span>
 
-<footer>This website was created with <a href="https://quarto.org/" target="_blank">Quarto</a> in R by me, find the open-source code <a href="https://github.com/MariannaRosso/Portfolio" target="_blank">here</a>.</footer>
+Dec 2018 - Jun 2022, PhD Researcher  
+<span class="cv-location">Veterinary Public Health Institute, University of Bern, Switzerland</span>
+
+### Education
+
+Feb 2016 - Sep 2018, Master's degree in Ecology and Evolution  
+<span class="cv-location">University of Bern, Switzerland</span>
+
+Oct 2011 - Oct 2015, Bachelor's degree in Biology  
+<span class="cv-location">Università degli studi di Torino, Italy</span>
+
+## Publications {#publications}
+
+1. Menon JLM, **Rosso M**, et al. (2025) "The efficacy of candidate HIV vaccines in non-human primates and humans: a systematic review." *medRxiv* [link](https://www.medrxiv.org/content/10.1101/2025.11.21.25340585v1)
+
+1. Liesner J, Ineichen BV, **Rosso M** (2026) "Use and reporting of systematic review methodology in EFSA Scientific Opinions on animal health and welfare." *Frontiers in Veterinary Science* [link](https://www.frontiersin.org/journals/veterinary-science/articles/10.3389/fvets.2025.1594235/full)
+
+1. Hild BF, Brüschweiler D, Hild STK, Bugajska J, von Wyl V, **Rosso M**, Wever KE, Furrer E, Ineichen BV (2024) "Quality, topics, and demographic trends of animal systematic reviews - an umbrella review." *Journal of Translational Medicine* [link](https://translational-medicine.biomedcentral.com/)
+
+1. Berg I, Härvelid P, Zürrer WE, **Rosso M**, Reich DS, Ineichen BV (2024) "Which experimental factors govern successful animal-to-human translation in multiple sclerosis drug development? A systematic review and meta-analysis." *eBioMedicine* [link](https://www.sciencedirect.com/science/article/pii/S2352396424004705#fig1)
+
+1. **Rosso M**, Doneva S, Howells D, Leenaars CHC, Ineichen BV (2024) "Summer school for systematic reviews of animal studies: Fostering evidence-based and rigorous animal research." *ALTEX - Alternatives to animal experimentation* [link](https://www.altex.org/index.php/altex/article/view/2717)
+
+1. **Rosso M**, Herrera A, Würbel H, Voelkl B (2024) "Evidence of HARKing in mouse behavioural tests of anxiety." *Royal Society Open 
+1. Menon JLM, **Rosso M**, et al. (2025) "The efficacy of candidate HIV vaccines in non-human primates and humans: a systematic review." *medRxiv* [link](#)
+
+1. Liesner J, Ineichen BV, **Rosso M** (2026) "Use and reporting of systematic review methodology in EFSA Scientific Opinions on animal health and welfare." *Frontiers in Veterinary Science* [In print](#Science* [link](http://dx.doi.org/10.1098/rsos.231744)
+
+1. Ineichen BV, **Rosso M**, Macleod MR (2023) "From data deluge to publomics: How AI can transform animal research." *Lab Animal* [link](https://www.nature.com/articles/s41684-023-01256-4)
+
+1. **Rosso M**, Held L (2023) "Primer: Principles of Data Visualization." *Center for Reproducible Science Primer Collection, Zenodo* [link](https://zenodo.org/records/8354337)
+
+1. Zurrer WE, Cannon AE, Ewing E, **Rosso M**, Reich DS, Ineichen BV (2023) "Auto-STEED: A data mining tool for automated extraction of experimental parameters and risk of bias items from in vivo publications." *bioRxiv* [link](https://doi.org/10.1101%2F2023.02.24.529867;http://dx.doi.org/10.1101/2023.02.24.529867)
+
+1. **Rosso M**, Wirz R, Loretan AV, Sutter NA, Pereira da Cunha CT, Jaric I, Würbel H, Voelkl B (2022) "Reliability of common mouse behavioural tests of anxiety: A systematic review and meta-analysis on the effects of anxiolytics." *Neuroscience & Biobehavioral Reviews* [link](http://dx.doi.org/10.1016/j.neubiorev.2022.104928)
+
+1. Novak J, Jaric I, **Rosso M**, Rufener R, Touma C, Würbel H (2022) "Handling method affects measures of anxiety, but not chronic stress in mice." *Scientific Reports* [link](https://doi.org/10.1038%2Fs41598-022-25090-9;http://dx.doi.org/10.1038/s41598-022-25090-9)
+
+1. Jaric I, Voelkl B, Clerc M, Schmid MW, Novak J, **Rosso M**, Rufener R, von Kortzfleisch VT, Richter SH, Buettner M, Bleich A, Amrein I, Wolfer DP, Touma C, Sunagawa S, Würbel H (2022) "The rearing environment persistently modulates mouse phenotypes from the molecular to the behavioural level." *PLOS Biology* [link](https://doi.org/10.1371%2Fjournal.pbio.3001837;http://dx.doi.org/10.1371/journal.pbio.3001837)
+
+1. von Kortzfleisch VT, Ambrée O, Karp NA, Meyer N, Novak J, Palme R, **Rosso M**, Touma C, Würbel H, Kaiser S, Sachser N, Richter SH (2022) "Do multiple experimenters improve the reproducibility of animal studies?" *PLOS Biology* [link](https://doi.org/10.1371%2Fjournal.pbio.3001564;http://dx.doi.org/10.1371/journal.pbio.3001564)
+
+1. Bailoo JD, Voelkl B, Varholick J, Novak J, Murphy E, **Rosso M**, Palme R, Würbel H (2020) "Effects of weaning age and housing conditions on phenotypic differences in mice." *Scientific Reports* [link](https://doi.org/10.1038%2Fs41598-020-68549-3;http://dx.doi.org/10.1038/s41598-020-68549-3)

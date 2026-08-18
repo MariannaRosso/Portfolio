@@ -3,17 +3,15 @@ project:
 
 
 website:
-  sidebar: false
-  title: "Marianna Rosso"
-  navbar:
-    left:
-      - href: index.qmd
+  sidebar:
+    style: "docked"
+    search: false
+    contents:
+      - href: index.qmd#welcome
         text: Welcome
-      - href: Projects.qmd
-        text: CV
-      - href: Graphics.qmd
-        text: Graphics
-      - href: Publications.qmd
+      - href: index.qmd#cv
+        text: Short CV
+      - href: index.qmd#publications
         text: Publications
 
 format:
@@ -21,6 +19,7 @@ format:
     theme: journal
     css: styles.css
     toc: true
+    include-in-header: head.html
 
 editor: visual
 
