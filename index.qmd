@@ -100,7 +100,6 @@ Talks -
 Conference posters - 
 
 #### Data visualization 
-
 {{< include _carousel.html >}}
 
 [Download my data visualization portfolio here](files/DataVizPortfolio.pdf)
@@ -136,7 +135,9 @@ Conference posters -
 
 </div>
 
-<button id="toggle-pubs-btn" onclick="togglePubs()" class="social-btn">Expand</button>
+<div style="text-align: center; margin-top: 20px;">
+  <button id="toggle-pubs-btn" onclick="togglePubs()" style="background: none; border: none; color: #db615e; text-decoration: underline; font-size: 18px; cursor: pointer; padding: 0;">Expand</button>
+</div>
 
 <script>
 function togglePubs() {
@@ -155,3 +156,6 @@ function togglePubs() {
 ## Sweets {#cake}
 
 Some of my non-academic creations
+
+{{< include _sweets.html >}}
+
