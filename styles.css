@@ -27,6 +27,10 @@ h2 {
   scroll-margin-top: 100px; /* adjust if a sticky header covers the heading */
 }
 
+#welcome {
+  scroll-margin-top: 0;
+}
+
 #quarto-sidebar {
   width: 650px !important;
   flex: 0 0 350px !important;
@@ -40,7 +44,7 @@ h2 {
 }
 
 #quarto-sidebar .sidebar-item:first-child {
-  margin-top: -200px; /* pulls the whole block up; positive value pushes down */
+  margin-top: -300px; /* pulls the whole block up; positive value pushes down */
 }
 
 #quarto-sidebar .sidebar-item {
@@ -82,4 +86,44 @@ h2 {
 .social-btn:hover {
   background-color: transparent;
   color: #eb6864; /* slightly darker on hover instead of a filled background, since there's no border now */
+}
+
+
+.carousel-item img {
+  width: 100%;
+  height: 500px;      /* fixed height, same for every slide */
+  object-fit: contain; /* shows the whole image, no cropping */
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23db615e'%3E%3Cpath d='M11.354 8.354a.5.5 0 0 0 0-.708L5.354 1.646a.5.5 0 1 0-.708.708L10.293 8l-5.647 5.646a.5.5 0 0 0 .708.708l6-6z'/%3E%3C/svg%3E");
+}
+
+#dataviz-carousel {
+  position: relative;
+  padding: 0 40px; /* makes room on either side for the arrows */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  opacity: 1; /* Bootstrap dims these by default; force full visibility */
+}
+
+.carousel-control-prev {
+  left: -5px; /* pushes it outside the padded box, to the left */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23db615e'%3E%3Cpath d='M11.354 8.354a.5.5 0 0 0 0-.708L5.354 1.646a.5.5 0 1 0-.708.708L10.293 8l-5.647 5.646a.5.5 0 0 0 .708.708l6-6z'/%3E%3C/svg%3E") !important;
+  width: 30px;
+  height: 30px;
+}
+
+.carousel-control-prev-icon {
+  transform: rotate(180deg); /* flips the arrow to point left, since it's the same SVG */
 }

@@ -7,55 +7,70 @@ format:
 
 ## Graphics
 
+```{=html}
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;700&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Great+Vibes:wght@400;700&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200;700&display=swap');
-</style> 
+</style>
+```
 
-<div style="display: flex; font-family: 'Crimson Pro', sans-serif;font-size: 19px; line-height: 1.1;">
-  A selection of visualizations or infographics I have created for work, or for fun. All the graphics were created with R and Inkscape.
-</div>
+::: {style="display: flex; font-family: 'Crimson Pro', sans-serif;font-size: 19px; line-height: 1.1;"}
+A selection of visualizations or infographics I have created for work, or for fun. All the graphics were created with R and Inkscape.
+:::
 
-<div style="display: flex; flex-direction: column; align-items: center; gap: 20px;">
+::::::::::: {style="display: flex; flex-direction: column; align-items: center; gap: 20px;"}
+<iframe src="Visualizations/infographic_3RCC.pdf#toolbar=0&amp;navpanes=0&amp;scrollbar=0" width="100%" height="450px" style="border:none;">
 
-<iframe src="Visualizations/infographic_3RCC.pdf#toolbar=0&navpanes=0&scrollbar=0" 
-        width="100%" height="450px" style="border:none;">
 </iframe>
 
 <div>
-  <img src="Visualizations/chapter1.png" alt="Chapter 1" style="width: 100%;">
+
+<img src="Visualizations/chapter1.png" alt="Chapter 1" style="width: 100%;"/>
+
 </div>
 
 <div>
-  <img src="Visualizations/chapter2.png" alt="Chapter 2" style="width: 100%;">
+
+<img src="Visualizations/chapter2.png" alt="Chapter 2" style="width: 100%;"/>
+
 </div>
 
 <div>
-  <img src="Visualizations/dogbreeds.jpg" alt="Dog Breeds" style="width: 100%;">
+
+<img src="Visualizations/dogbreeds.jpg" alt="Dog Breeds" style="width: 100%;"/>
+
 </div>
 
 <div>
-  <img src="Visualizations/fuels.jpg" alt="Fuels" style="width: 100%;">
+
+<img src="Visualizations/fuels.jpg" alt="Fuels" style="width: 100%;"/>
+
 </div>
 
 <div>
-  <img src="Visualizations/Iceland.png" alt="Iceland" style="width: 100%;">
+
+<img src="Visualizations/Iceland.png" alt="Iceland" style="width: 100%;"/>
+
 </div>
 
 <div>
-  <img src="Visualizations/Picture1.png" alt="Picture 1" style="width: 100%;">
+
+<img src="Visualizations/Picture1.png" alt="Picture 1" style="width: 100%;"/>
+
 </div>
 
 <div>
-  <img src="Visualizations/sestri_export.png" alt="Sestri Export" style="width: 100%;">
+
+<img src="Visualizations/sestri_export.png" alt="Sestri Export" style="width: 100%;"/>
+
 </div>
 
 <div>
-  <img src="Visualizations/website_plot1.jpg" alt="Website Plot 1" style="width: 100%;">
-</div>
+
+<img src="Visualizations/website_plot1.jpg" alt="Website Plot 1" style="width: 100%;"/>
 
 </div>
-
+:::::::::::
 
 <footer><a href="mailto:marianna.rosso@uzh.ch" target="_blank">Contact me</a> if you're interested in knowing more.</footer>

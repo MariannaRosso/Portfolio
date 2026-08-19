@@ -10,6 +10,7 @@ format:
 
 <a href="https://www.linkedin.com/in/marianna-rosso-625022160/" target="_blank" style="text-decoration: none;"> <button class="social-btn"><i class="fa-brands fa-linkedin"></i></button> </a> <a href="https://github.com/marianna-rosso-uzh/" target="_blank" style="text-decoration: none;"> <button class="social-btn"><i class="fa-brands fa-github"></i></button> </a> <a href="https://stride-lab.pages.uzh.ch/website/people/rosso-marianna/" style="text-decoration: none;"> <button class="social-btn"><i class="fa-solid fa-briefcase"></i></button> </a> <a href="mailto:marianna.rosso@uzh.ch" style="text-decoration: none;"> <button class="social-btn"><i class="fa-solid fa-envelope"></i></button> </a>
 
+## Research {#research}
 
 ## Short CV {#cv}
 
@@ -50,21 +51,35 @@ Oct 2011 - Oct 2015, Bachelor's degree in Biology
 
 #### Events (co-)organized by me
 
-- Winter school on systematic reviews of animal studies. [link](https://www.crs.uzh.ch/en/news/2026-News/Winter-School-on-Evidence-Synthesis.html)  
+Winter school on systematic reviews of animal studies. [link](https://www.crs.uzh.ch/en/news/2026-News/Winter-School-on-Evidence-Synthesis.html)  
 <span class="cv-location">Feb 2026: Zurich</span>
 
-- International SR-SAVI Conference on systematic review of animal and in-vitro studies. [link](https://marianna-rosso-uzh.github.io/SRSAVI/)
+International SR-SAVI Conference on systematic review of animal and in-vitro studies. [link](https://marianna-rosso-uzh.github.io/SRSAVI/)
 <span class="cv-location">Nov 2024: Zurich</span>
 
-- Summer school on systematic reviews of animal studies. [link](https://norecopa.no/summer-school-on-systematic-reviews-of-animal-studies/)  
+Summer school on systematic reviews of animal studies. [link](https://norecopa.no/summer-school-on-systematic-reviews-of-animal-studies/)  
 <span class="cv-location">Aug 2023: Zurich CH, Aug 2024: Bergen NO</span>
 
-- R Bootcamp and Bring-your-own-data (BYOD) Workshop [link](https://www.wbkolleg.unibe.ch/unibe/portal/fak_historisch/fsuf/content/e171913/e1032545/e1346018/pane1177208/e1286593/10-2022_ger.pdf)  
+R Bootcamp and Bring-your-own-data (BYOD) Workshop [link](https://www.wbkolleg.unibe.ch/unibe/portal/fak_historisch/fsuf/content/e171913/e1032545/e1346018/pane1177208/e1286593/10-2022_ger.pdf)  
 <span class="cv-location">Nov 2022: Bern, Switzerland</span>
 
 #### Web design
 
-- [My home bakery](https://www.flakypieshop.com/)  
+[My home bakery](https://www.flakypieshop.com/)  
+
+[Achtsamkeit.ch](https://mariannarosso.github.io/achtsamkeit/)
+
+[SR-SAVI conference](https://marianna-rosso-uzh.github.io/SRSAVI/)
+
+#### Outreach
+
+[Animal use in drug development - 3RCC interview](https://www.youtube.com/watch?v=HTuxl-SNNnQ)
+
+## Data visualization {#dataviz}
+
+{{< include _carousel.html >}}
+
+[Download my data visualization portfolio here](files/DataVizPortfolio.pdf)
 
 ## Publications {#publications}
 

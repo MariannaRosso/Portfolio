@@ -9,10 +9,14 @@ website:
     contents:
       - href: index.qmd#welcome
         text: Welcome
+      - href: index.qmd#research
+        text: Research
       - href: index.qmd#cv
         text: Short CV
       - href: index.qmd#projects
-        text: Projects
+        text: Projects      
+      - href: index.qmd#dataviz
+        text: Data Visualization
       - href: index.qmd#publications
         text: Publications
 
