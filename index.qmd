@@ -6,9 +6,29 @@ format:
 
 ![](images/avatar.png){.circle-crop width="300" height="300" fig-align="left"}
 
+Data Scientist - Research Methodologist - Baker  
+<span class="cv-location">Interested in Animal Welfare, Evidence Synthesis and Butterscotch</span>
 
 
 <a href="https://www.linkedin.com/in/marianna-rosso-625022160/" target="_blank" style="text-decoration: none;"> <button class="social-btn"><i class="fa-brands fa-linkedin"></i></button> </a> <a href="https://github.com/marianna-rosso-uzh/" target="_blank" style="text-decoration: none;"> <button class="social-btn"><i class="fa-brands fa-github"></i></button> </a> <a href="https://stride-lab.pages.uzh.ch/website/people/rosso-marianna/" style="text-decoration: none;"> <button class="social-btn"><i class="fa-solid fa-briefcase"></i></button> </a> <a href="mailto:marianna.rosso@uzh.ch" style="text-decoration: none;"> <button class="social-btn"><i class="fa-solid fa-envelope"></i></button> </a>
+
+:::: {.columns}
+
+::: {.column width="50%"}
+#### Soft skills
+- people  
+- blabla  
+:::
+
+::: {.column width="50%"}
+#### Hard skills
+- R  
+- SQL  
+- Tableau  
+- Git  
+:::
+
+::::
 
 ## Research {#research}
 
@@ -79,7 +99,7 @@ Talks -
 
 Conference posters - 
 
-## Data visualization {#dataviz}
+#### Data visualization 
 
 {{< include _carousel.html >}}
 
@@ -97,23 +117,41 @@ Conference posters -
 
 1. **Rosso M**, Doneva S, Howells D, Leenaars CHC, Ineichen BV (2024) "Summer school for systematic reviews of animal studies: Fostering evidence-based and rigorous animal research." *ALTEX - Alternatives to animal experimentation* [link](https://www.altex.org/index.php/altex/article/view/2717)
 
-1. **Rosso M**, Herrera A, Würbel H, Voelkl B (2024) "Evidence of HARKing in mouse behavioural tests of anxiety." *Royal Society Open 
-1. Menon JLM, **Rosso M**, et al. (2025) "The efficacy of candidate HIV vaccines in non-human primates and humans: a systematic review." *medRxiv* [link](#)
-
-1. Liesner J, Ineichen BV, **Rosso M** (2026) "Use and reporting of systematic review methodology in EFSA Scientific Opinions on animal health and welfare." *Frontiers in Veterinary Science* [In print](#Science* [link](http://dx.doi.org/10.1098/rsos.231744)
+1. **Rosso M**, Herrera A, Würbel H, Voelkl B (2024) "Evidence of HARKing in mouse behavioural tests of anxiety." *Royal Society Open Science* [link](http://dx.doi.org/10.1098/rsos.231744)
 
 1. Ineichen BV, **Rosso M**, Macleod MR (2023) "From data deluge to publomics: How AI can transform animal research." *Lab Animal* [link](https://www.nature.com/articles/s41684-023-01256-4)
 
 1. **Rosso M**, Held L (2023) "Primer: Principles of Data Visualization." *Center for Reproducible Science Primer Collection, Zenodo* [link](https://zenodo.org/records/8354337)
 
-1. Zurrer WE, Cannon AE, Ewing E, **Rosso M**, Reich DS, Ineichen BV (2023) "Auto-STEED: A data mining tool for automated extraction of experimental parameters and risk of bias items from in vivo publications." *bioRxiv* [link](https://doi.org/10.1101%2F2023.02.24.529867;http://dx.doi.org/10.1101/2023.02.24.529867)
+<div id="more-pubs" style="display: none;">
 
-1. **Rosso M**, Wirz R, Loretan AV, Sutter NA, Pereira da Cunha CT, Jaric I, Würbel H, Voelkl B (2022) "Reliability of common mouse behavioural tests of anxiety: A systematic review and meta-analysis on the effects of anxiolytics." *Neuroscience & Biobehavioral Reviews* [link](http://dx.doi.org/10.1016/j.neubiorev.2022.104928)
+<ol start="9">
+<li>Zurrer WE, Cannon AE, Ewing E, <strong >Rosso M</strong>, Reich DS, Ineichen BV (2023) "Auto-STEED: A data mining tool for automated extraction of experimental parameters and risk of bias items from in vivo publications." <em>bioRxiv</em> <a href="https://doi.org/10.1101%2F2023.02.24.529867;http://dx.doi.org/10.1101/2023.02.24.529867" target="_blank">link</a></li>
+<li><strong >Rosso M</strong>, Wirz R, Loretan AV, Sutter NA, Pereira da Cunha CT, Jaric I, Würbel H, Voelkl B (2022) "Reliability of common mouse behavioural tests of anxiety: A systematic review and meta-analysis on the effects of anxiolytics." <em>Neuroscience & Biobehavioral Reviews</em> <a href="http://dx.doi.org/10.1016/j.neubiorev.2022.104928" target="_blank">link</a></li>
+<li>Novak J, Jaric I, <strong >Rosso M</strong>, Rufener R, Touma C, Würbel H (2022) "Handling method affects measures of anxiety, but not chronic stress in mice." <em>Scientific Reports</em> <a href="https://doi.org/10.1038%2Fs41598-022-25090-9;http://dx.doi.org/10.1038/s41598-022-25090-9" target="_blank">link</a></li>
+<li>Jaric I, Voelkl B, Clerc M, Schmid MW, Novak J, <strong >Rosso M</strong>, Rufener R, von Kortzfleisch VT, Richter SH, Buettner M, Bleich A, Amrein I, Wolfer DP, Touma C, Sunagawa S, Würbel H (2022) "The rearing environment persistently modulates mouse phenotypes from the molecular to the behavioural level." <em>PLOS Biology</em> <a href="https://doi.org/10.1371%2Fjournal.pbio.3001837;http://dx.doi.org/10.1371/journal.pbio.3001837" target="_blank">link</a></li>
+<li>von Kortzfleisch VT, Ambrée O, Karp NA, Meyer N, Novak J, Palme R, <strong >Rosso M</strong>, Touma C, Würbel H, Kaiser S, Sachser N, Richter SH (2022) "Do multiple experimenters improve the reproducibility of animal studies?" <em>PLOS Biology</em> <a href="https://doi.org/10.1371%2Fjournal.pbio.3001564;http://dx.doi.org/10.1371/journal.pbio.3001564" target="_blank">link</a></li>
+<li>Bailoo JD, Voelkl B, Varholick J, Novak J, Murphy E, <strong >Rosso M</strong>, Palme R, Würbel H (2020) "Effects of weaning age and housing conditions on phenotypic differences in mice." <em>Scientific Reports</em> <a href="https://doi.org/10.1038%2Fs41598-020-68549-3;http://dx.doi.org/10.1038/s41598-020-68549-3" target="_blank">link</a></li>
+</ol>
 
-1. Novak J, Jaric I, **Rosso M**, Rufener R, Touma C, Würbel H (2022) "Handling method affects measures of anxiety, but not chronic stress in mice." *Scientific Reports* [link](https://doi.org/10.1038%2Fs41598-022-25090-9;http://dx.doi.org/10.1038/s41598-022-25090-9)
+</div>
 
-1. Jaric I, Voelkl B, Clerc M, Schmid MW, Novak J, **Rosso M**, Rufener R, von Kortzfleisch VT, Richter SH, Buettner M, Bleich A, Amrein I, Wolfer DP, Touma C, Sunagawa S, Würbel H (2022) "The rearing environment persistently modulates mouse phenotypes from the molecular to the behavioural level." *PLOS Biology* [link](https://doi.org/10.1371%2Fjournal.pbio.3001837;http://dx.doi.org/10.1371/journal.pbio.3001837)
+<button id="toggle-pubs-btn" onclick="togglePubs()" class="social-btn">Expand</button>
 
-1. von Kortzfleisch VT, Ambrée O, Karp NA, Meyer N, Novak J, Palme R, **Rosso M**, Touma C, Würbel H, Kaiser S, Sachser N, Richter SH (2022) "Do multiple experimenters improve the reproducibility of animal studies?" *PLOS Biology* [link](https://doi.org/10.1371%2Fjournal.pbio.3001564;http://dx.doi.org/10.1371/journal.pbio.3001564)
+<script>
+function togglePubs() {
+  const more = document.getElementById("more-pubs");
+  const btn = document.getElementById("toggle-pubs-btn");
+  if (more.style.display === "none") {
+    more.style.display = "block";
+    btn.textContent = "Show less";
+  } else {
+    more.style.display = "none";
+    btn.textContent = "Expand";
+  }
+}
+</script>
 
-1. Bailoo JD, Voelkl B, Varholick J, Novak J, Murphy E, **Rosso M**, Palme R, Würbel H (2020) "Effects of weaning age and housing conditions on phenotypic differences in mice." *Scientific Reports* [link](https://doi.org/10.1038%2Fs41598-020-68549-3;http://dx.doi.org/10.1038/s41598-020-68549-3)
+## Sweets {#cake}
+
+Some of my non-academic creations

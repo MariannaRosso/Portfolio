@@ -14,12 +14,13 @@ website:
       - href: index.qmd#cv
         text: Short CV
       - href: index.qmd#projects
-        text: Projects      
-      - href: index.qmd#dataviz
-        text: Data Visualization
+        text: Projects
       - href: index.qmd#publications
         text: Publications
-
+      - href: index.qmd#cake
+        text: Sweets
+        
+        
 format:
   html:
     link-external-newwindow: true

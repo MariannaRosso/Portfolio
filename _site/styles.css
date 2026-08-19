@@ -60,7 +60,28 @@ h2 {
   
 }
 
+#quarto-sidebar a[href="index.qmd#cake"] {
+  font-size: 0; /* hides the text visually */
+}
 
+#quarto-sidebar a[href="index.qmd#cake"]::before {
+  font-family: "bootstrap-icons" !important;
+  font-weight: normal !important;
+  content: "\f6ed";
+  font-size: 22px; /* icon needs its own font-size since parent's is now 0 */
+  color: #db615e;
+}
+
+#quarto-sidebar .sidebar-section {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+#quarto-sidebar li:hover > .sidebar-section {
+  display: block;
+  opacity: 1;
+}
 
 #quarto-document-content {
   margin-left: 430px !important;
@@ -126,4 +147,23 @@ h2 {
 
 .carousel-control-prev-icon {
   transform: rotate(180deg); /* flips the arrow to point left, since it's the same SVG */
+}
+
+#more-pubs li {
+  margin-bottom: 1.1em;
+}
+
+.expand-btn {
+  padding: 10px 30px;
+  background-color: #db615e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.expand-btn:hover {
+  background-color: #a94442;
 }
