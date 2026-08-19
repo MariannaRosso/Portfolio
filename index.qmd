@@ -75,6 +75,10 @@ R Bootcamp and Bring-your-own-data (BYOD) Workshop [link](https://www.wbkolleg.u
 
 [Animal use in drug development - 3RCC interview](https://www.youtube.com/watch?v=HTuxl-SNNnQ)
 
+Talks - 
+
+Conference posters - 
+
 ## Data visualization {#dataviz}
 
 {{< include _carousel.html >}}
