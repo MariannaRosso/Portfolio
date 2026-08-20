@@ -92,7 +92,7 @@ R Bootcamp and Bring-your-own-data (BYOD) Workshop [link](https://www.wbkolleg.u
 
 [My home bakery](https://www.flakypieshop.com/)  
 
-[Achtsamkeit.ch](https://mariannarosso.github.io/achtsamkeit/)
+[Achtsamkeit.ch](https://mariannarosso.github.io/achtsamkeit/) (in development)
 
 [SR-SAVI conference](https://marianna-rosso-uzh.github.io/SRSAVI/)
 
@@ -100,9 +100,25 @@ R Bootcamp and Bring-your-own-data (BYOD) Workshop [link](https://www.wbkolleg.u
 
 [Animal use in drug development - 3RCC interview](https://www.youtube.com/watch?v=HTuxl-SNNnQ)
 
-Talks - 
+**Talks/Lectures** including Applied Ethology and Animal Welfare Course (Bern), World Congress on Alternatives and Animal Use in the Life Sciences (Maastricht), ReproducibiliTea Switzerland
 
-Conference posters - 
+**Conference posters** including GCB Symposium 2021 (Bern), 3Rs Day 2023 (Lausanne), SR-SAVI 2024 (Zurich)
+
+#### Grants and Awards
+
+open_innovation UZH teaching fund  
+<span class="cv-location">for “Systematic review and meta-analysis: a hands-on, research-based semester course for life science students” (2024)</span>
+
+3RCC Award and 3Rs UZH Award  
+<span class="cv-location">for the efforts in advancing and promoting the 3Rs and animal welfare in preclinical research (2024)</span>
+
+GRC Short Grant and 3RCC sponsorship  
+<span class="cv-location">for the funding of the Summer School of the
+Systematic review of Animal Studies, University of Zürich (2023)</span>
+
+YOU-WC11 Award  
+<span class="cv-location">for best presentations from Early Career Researchers
+Maastricht, The Netherlands (2021)</span>
 
 #### Data visualization 
 {{< include _carousel.html >}}
