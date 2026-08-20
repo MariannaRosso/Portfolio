@@ -7,30 +7,35 @@ format:
 ![](images/avatar.png){.circle-crop width="300" height="300" fig-align="left"}
 
 Data Scientist - Research Methodologist - Baker  
-<span class="cv-location">Interested in Animal Welfare, Evidence Synthesis and Butterscotch</span>
+<span class="cv-location">Interested in Animal Welfare, Evidence Synthesis and Butterscotch Cookies</span>
 
 
 <a href="https://www.linkedin.com/in/marianna-rosso-625022160/" target="_blank" style="text-decoration: none;"> <button class="social-btn"><i class="fa-brands fa-linkedin"></i></button> </a> <a href="https://github.com/marianna-rosso-uzh/" target="_blank" style="text-decoration: none;"> <button class="social-btn"><i class="fa-brands fa-github"></i></button> </a> <a href="https://stride-lab.pages.uzh.ch/website/people/rosso-marianna/" style="text-decoration: none;"> <button class="social-btn"><i class="fa-solid fa-briefcase"></i></button> </a> <a href="mailto:marianna.rosso@uzh.ch" style="text-decoration: none;"> <button class="social-btn"><i class="fa-solid fa-envelope"></i></button> </a>
 
-:::: {.columns}
 
-::: {.column width="50%"}
-#### Soft skills
-- people  
-- blabla  
-:::
+**Research** · Animal Welfare · 3Rs · Translation · Reproducibility · FAIR Data · Scientific Databases
 
-::: {.column width="50%"}
-#### Hard skills
-- R  
-- SQL  
-- Tableau  
-- Git  
-:::
+**Tools** · R · R Shiny · Quarto · Python · SQL · Git/GitHub · Tableau · CSS · HTML · JavaScript · Illustrator · Covidence · Rayyan · ASReview
 
-::::
+**Communication** · Data Visualisation · Scientific Storytelling · Teaching · Training 
+
 
 ## Research {#research}
+
+Evidence Synthesis & Research Methodology  
+<span class="cv-location">Systematic reviews, meta-analyses and methodological research focused on improving the quality, reliability and usefulness of biomedical evidence.</span>
+
+Animal Welfare & Translational Research  
+<span class="cv-location">Animal models, experimental validity, reproducibility and the translation of preclinical findings into human health research.</span>
+
+Research Integrity & Reproducibility  
+<span class="cv-location">Bias, questionable research practices, open science, reproducible workflows and FAIR research principles.</span>
+
+Biomedical & Real-World Data  
+<span class="cv-location">Statistical analysis and data science applied to clinical and preclinical datasets, including real-world ophthalmology and clinical trial data.</span>
+
+Computational Research & Scientific Communication  
+<span class="cv-location">Data pipelines, interactive dashboards, data visualisation and automated workflows that make complex scientific evidence easier to explore, understand and communicate.</span>
 
 ## Short CV {#cv}
 
